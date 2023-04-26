@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1682469599
+ModificationTime: 1682474797
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 275
+BeginChars: 65536 280
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -455,11 +455,11 @@ HStem: 8 4<2 14>
 LayerCount: 2
 Fore
 SplineSet
-2 12 m 25
- 14 12 l 25
- 14 8 l 25
- 2 8 l 25
- 2 12 l 25
+2 12 m 29
+ 14 12 l 29
+ 14 8 l 29
+ 2 8 l 29
+ 2 12 l 29
 EndSplineSet
 Validated: 1
 EndChar
@@ -4914,6 +4914,135 @@ SplineSet
  2 20 l 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: copyright
+Encoding: 169 169 275
+Width: 16
+HStem: 0 2<3 11> 4 2<7 10> 12 2<7 10> 16 2<3 11>
+VStem: 0 2<3 15> 4 2<7 11> 12 2<3 15>
+LayerCount: 2
+Fore
+SplineSet
+4 11 m 1
+ 7 14 l 1
+ 10 14 l 1
+ 10 12 l 1
+ 7 12 l 1
+ 6 11 l 1
+ 6 7 l 1
+ 7 6 l 1
+ 10 6 l 1
+ 10 4 l 1
+ 7 4 l 1
+ 4 7 l 1
+ 4 11 l 1
+12 15 m 1
+ 11 16 l 1
+ 3 16 l 1
+ 2 15 l 1
+ 2 3 l 1
+ 3 2 l 1
+ 11 2 l 1
+ 12 3 l 5
+ 12 15 l 1
+3 18 m 1
+ 11 18 l 1
+ 14 15 l 1
+ 14 3 l 1
+ 11 0 l 1
+ 3 0 l 1
+ 0 3 l 1
+ 0 15 l 1
+ 3 18 l 1
+EndSplineSet
+EndChar
+
+StartChar: ordfeminine
+Encoding: 170 170 276
+Width: 16
+HStem: 10 2<6 8> 14 2<6 8> 18 2<4 7>
+VStem: 4 2<12 14> 8 2<12 14 16 17>
+CounterMasks: 1 e0
+LayerCount: 2
+Fore
+SplineSet
+8 14 m 25
+ 6 14 l 25
+ 6 12 l 25
+ 8 12 l 25
+ 8 14 l 25
+4 20 m 1
+ 7 20 l 1
+ 10 17 l 5
+ 10 10 l 1
+ 6 10 l 1
+ 4 12 l 1
+ 4 14 l 1
+ 6 16 l 1
+ 8 16 l 1
+ 8 18 l 1
+ 4 18 l 1
+ 4 20 l 1
+EndSplineSet
+EndChar
+
+StartChar: guillemotleft
+Encoding: 171 171 277
+Width: 16
+Flags: M
+LayerCount: 2
+Fore
+SplineSet
+10 10 m 1
+ 14 10 l 1
+ 10 5 l 1
+ 14 0 l 1
+ 10 0 l 1
+ 6 5 l 1
+ 10 10 l 1
+4 10 m 1
+ 8 10 l 1
+ 4 5 l 1
+ 8 0 l 1
+ 4 0 l 1
+ 0 5 l 1
+ 4 10 l 1
+EndSplineSet
+EndChar
+
+StartChar: logicalnot
+Encoding: 172 172 278
+Width: 16
+HStem: 10 4<10 14> 12 2<0 10>
+VStem: 10 4<10 12>
+LayerCount: 2
+Fore
+SplineSet
+0 14 m 1x60
+ 14 14 l 25
+ 14 10 l 25
+ 10 10 l 25xa0
+ 10 12 l 1
+ 0 12 l 29
+ 0 14 l 1x60
+EndSplineSet
+EndChar
+
+StartChar: uni00AD
+Encoding: 173 173 279
+Width: 16
+Flags: W
+HStem: 8 4<2 14>
+LayerCount: 2
+Fore
+SplineSet
+2 12 m 29
+ 14 12 l 29
+ 14 8 l 29
+ 2 8 l 29
+ 2 12 l 29
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
