@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1682468727
+ModificationTime: 1682469599
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 32 32 8
+WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4721,6 +4721,7 @@ SplineSet
  6 12 l 1
  6 14 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: sterling
@@ -4755,6 +4756,7 @@ SplineSet
  14 0 l 25
  0 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: currency
@@ -4800,6 +4802,7 @@ SplineSet
  3 14 l 1
  5 16 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: yen
@@ -4836,25 +4839,27 @@ SplineSet
  5 8 l 1
  0 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: brokenbar
 Encoding: 166 166 272
 Width: 16
 Flags: W
-VStem: 6 4
+HStem: 0 21G<6 10> 0 20G<6 10>
+VStem: 6 4<0 8 12 20>
 LayerCount: 2
 Fore
 SplineSet
-6 8 m 1
- 6 0 l 1
- 10 0 l 1
+6 8 m 1xa0
  10 8 l 1
- 6 8 l 1
+ 10 0 l 1
+ 6 0 l 1
+ 6 8 l 1xa0
 10 12 m 1
- 10 20 l 1
- 6 20 l 1
  6 12 l 1
+ 6 20 l 1
+ 10 20 l 1x60
  10 12 l 1
 EndSplineSet
 EndChar
@@ -4886,6 +4891,7 @@ SplineSet
  0 7 l 5
  0 13 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dieresis
@@ -4907,6 +4913,7 @@ SplineSet
  2 16 l 1
  2 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
