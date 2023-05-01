@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 192 32 8
+WinInfo: 128 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5081,6 +5081,7 @@ EndChar
 StartChar: Ccedilla
 Encoding: 199 199 281
 Width: 16
+UnlinkRmOvrlpSave: 1
 Flags: H
 LayerCount: 2
 Fore
@@ -5092,6 +5093,7 @@ EndChar
 StartChar: ccedilla
 Encoding: 231 231 282
 Width: 16
+UnlinkRmOvrlpSave: 1
 Flags: H
 LayerCount: 2
 Fore
@@ -5122,6 +5124,7 @@ EndChar
 StartChar: Aogonek
 Encoding: 260 260 284
 Width: 16
+UnlinkRmOvrlpSave: 1
 Flags: H
 LayerCount: 2
 Fore
@@ -5133,6 +5136,7 @@ EndChar
 StartChar: aogonek
 Encoding: 261 261 285
 Width: 16
+UnlinkRmOvrlpSave: 1
 Flags: H
 LayerCount: 2
 Fore
@@ -5144,6 +5148,7 @@ EndChar
 StartChar: Eogonek
 Encoding: 280 280 286
 Width: 16
+UnlinkRmOvrlpSave: 1
 Flags: H
 LayerCount: 2
 Fore
@@ -5155,6 +5160,7 @@ EndChar
 StartChar: eogonek
 Encoding: 281 281 287
 Width: 16
+UnlinkRmOvrlpSave: 1
 Flags: H
 LayerCount: 2
 Fore
