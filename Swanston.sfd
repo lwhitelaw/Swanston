@@ -66,7 +66,7 @@ Grid
  16 14 l 1049
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "aaa"""  "bottom"""  "top""" 
+AnchorClass2: "bottom"""  "top""" 
 BeginChars: 65536 284
 
 StartChar: exclam
@@ -1553,7 +1553,7 @@ EndChar
 StartChar: U
 Encoding: 85 85 52
 Width: 16
-Flags: MW
+Flags: MWO
 HStem: 0 2<4 10>
 VStem: 0 4<3 20> 10 4<3 20>
 AnchorPoint: "bottom" 7 0 basechar 0
