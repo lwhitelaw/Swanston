@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1682900495
+ModificationTime: 1682900756
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 704 32 8
+WinInfo: 32 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -66,7 +66,7 @@ Grid
  16 14 l 1049
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "bottom"""  "top""" 
+AnchorClass2: "aaa"""  "bottom"""  "top""" 
 BeginChars: 65536 284
 
 StartChar: exclam
@@ -657,6 +657,7 @@ Width: 16
 Flags: MW
 HStem: 6 2<4 10> 16 4<6 8>
 VStem: 0 4<0 6 8 12> 10 4<0 6 8 12>
+AnchorPoint: "bottom" 12 -0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
@@ -1116,7 +1117,7 @@ StartChar: E
 Encoding: 69 69 36
 Width: 16
 Flags: HW
-AnchorPoint: "bottom" 7 -0 basechar 0
+AnchorPoint: "bottom" 13 0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
@@ -1135,7 +1136,6 @@ SplineSet
  0 0 l 25
  0 20 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: F
@@ -1533,6 +1533,7 @@ StartChar: T
 Encoding: 84 84 51
 Width: 16
 Flags: HW
+AnchorPoint: "bottom" 6 -0 basechar 0
 AnchorPoint: "top" 6 20 basechar 0
 LayerCount: 2
 Fore
@@ -1547,7 +1548,6 @@ SplineSet
  0 18 l 25
  0 20 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: U
@@ -1573,7 +1573,6 @@ SplineSet
  0 3 l 25
  0 20 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: V
@@ -2640,7 +2639,6 @@ LayerCount: 2
 Fore
 Refer: 93 768 N 1 0 0 1 -1 0 2
 Refer: 36 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Igrave
@@ -2673,7 +2671,6 @@ LayerCount: 2
 Fore
 Refer: 93 768 N 1 0 0 1 -1 0 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: agrave
@@ -2822,7 +2819,6 @@ LayerCount: 2
 Fore
 Refer: 104 769 N 1 0 0 1 -1 0 2
 Refer: 36 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ecircumflex
@@ -2833,7 +2829,6 @@ LayerCount: 2
 Fore
 Refer: 105 770 N 1 0 0 1 -1 0 2
 Refer: 36 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Iacute
@@ -2899,7 +2894,6 @@ LayerCount: 2
 Fore
 Refer: 104 769 N 1 0 0 1 -1 0 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ucircumflex
@@ -2910,7 +2904,6 @@ LayerCount: 2
 Fore
 Refer: 105 770 N 1 0 0 1 -1 0 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: aacute
@@ -3149,7 +3142,6 @@ LayerCount: 2
 Fore
 Refer: 133 776 N 1 0 0 1 -1 0 2
 Refer: 36 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Idieresis
@@ -3182,7 +3174,6 @@ LayerCount: 2
 Fore
 Refer: 133 776 N 1 0 0 1 -1 0 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: adieresis
@@ -3391,7 +3382,6 @@ LayerCount: 2
 Fore
 Refer: 129 772 N 1 0 0 1 -1 0 2
 Refer: 36 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: emacron
@@ -3413,7 +3403,6 @@ LayerCount: 2
 Fore
 Refer: 131 774 N 1 0 0 1 -1 0 2
 Refer: 36 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ebreve
@@ -3435,7 +3424,6 @@ LayerCount: 2
 Fore
 Refer: 132 775 N 1 0 0 1 -1 0 2
 Refer: 36 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: edotaccent
@@ -3457,7 +3445,6 @@ LayerCount: 2
 Fore
 Refer: 248 780 N 1 0 0 1 -1 0 2
 Refer: 36 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ecaron
@@ -3898,7 +3885,6 @@ LayerCount: 2
 Fore
 Refer: 248 780 N 1 0 0 1 -2 0 2
 Refer: 51 84 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Utilde
@@ -3909,7 +3895,6 @@ LayerCount: 2
 Fore
 Refer: 106 771 N 1 0 0 1 -1 0 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: utilde
@@ -3931,7 +3916,6 @@ LayerCount: 2
 Fore
 Refer: 129 772 N 1 0 0 1 -1 0 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: umacron
@@ -3953,7 +3937,6 @@ LayerCount: 2
 Fore
 Refer: 131 774 N 1 0 0 1 -1 0 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ubreve
@@ -4162,7 +4145,6 @@ LayerCount: 2
 Fore
 Refer: 248 780 N 1 0 0 1 -1 0 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni01D4
@@ -4440,7 +4422,6 @@ LayerCount: 2
 Fore
 Refer: 247 778 N 1 0 0 1 -1 0 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uring
@@ -5087,7 +5068,7 @@ EndChar
 StartChar: uni0328
 Encoding: 808 808 283
 Width: 16
-Flags: HO
+Flags: H
 AnchorPoint: "bottom" 7 -0 mark 0
 LayerCount: 2
 Fore
