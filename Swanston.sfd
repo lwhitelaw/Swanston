@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1682902926
+ModificationTime: 1682904136
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -1116,7 +1116,9 @@ EndChar
 StartChar: E
 Encoding: 69 69 36
 Width: 16
-Flags: HW
+Flags: W
+HStem: 0 2<4 14> 10 2<4 12> 18 2<4 14>
+VStem: 0 4<2 10 12 18>
 AnchorPoint: "bottom" 13 0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
@@ -1535,21 +1537,23 @@ EndChar
 StartChar: T
 Encoding: 84 84 51
 Width: 16
-Flags: HW
+Flags: W
+HStem: 0 21G<4 8> 18 2<0 4 8 12>
+VStem: 4 4<0 18>
 AnchorPoint: "bottom" 6 -0 basechar 0
 AnchorPoint: "top" 6 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-0 20 m 25
+0 20 m 25x60
  12 20 l 25
  12 18 l 25
- 8 18 l 25
+ 8 18 l 25x60
  8 0 l 25
- 4 0 l 25
+ 4 0 l 25xa0
  4 18 l 25
  0 18 l 25
- 0 20 l 25
+ 0 20 l 25x60
 EndSplineSet
 Validated: 1
 EndChar
@@ -1909,7 +1913,10 @@ EndChar
 StartChar: e
 Encoding: 101 101 67
 Width: 16
-Flags: HW
+Flags: W
+HStem: 0 2<4 10> 6 2<4 10> 12 2<4 10>
+VStem: 0 4<3 6 8 11> 10 4<3 4 8 11>
+CounterMasks: 1 e0
 AnchorPoint: "bottom" 7 0 basechar 0
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
@@ -5082,7 +5089,8 @@ StartChar: Ccedilla
 Encoding: 199 199 281
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 0 2<4 10> 18 2<4 10>
+VStem: 0 4<3 17> 6 4 10 4<3 6 14 17>
 LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 0 0 2
@@ -5094,7 +5102,8 @@ StartChar: ccedilla
 Encoding: 231 231 282
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 0 2<4 10> 12 2<4 10>
+VStem: 0 4<3 11> 6 4 10 4<3 4 10 11>
 LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 0 0 2
@@ -5105,7 +5114,8 @@ EndChar
 StartChar: uni0328
 Encoding: 808 808 283
 Width: 16
-Flags: H
+HStem: -6 6
+VStem: 4 4
 AnchorPoint: "bottom" 7 -0 mark 0
 LayerCount: 2
 Fore
@@ -5125,7 +5135,8 @@ StartChar: Aogonek
 Encoding: 260 260 284
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 6 2<4 10> 16 4<6 8>
+VStem: 0 4<0 6 8 12> 9 4 10 4<0 6 8 12>
 LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 5 0 2
@@ -5137,7 +5148,8 @@ StartChar: aogonek
 Encoding: 261 261 285
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 0 2<4 10> 6 2<4 10> 12 2<2 10>
+VStem: 0 4<3 5> 4 4 10 4<3 6 8 11>
 LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 0 0 2
@@ -5149,7 +5161,8 @@ StartChar: Eogonek
 Encoding: 280 280 286
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 0 2<4 14> 10 2<4 12> 18 2<4 14>
+VStem: 0 4<2 10 12 18> 10 4
 LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 6 0 2
@@ -5161,7 +5174,8 @@ StartChar: eogonek
 Encoding: 281 281 287
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 0 2<4 10> 6 2<4 10> 12 2<4 10>
+VStem: 0 4<3 6 8 11> 4 4 10 4<3 4 8 11>
 LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 0 0 2
@@ -5173,7 +5187,8 @@ StartChar: Iogonek
 Encoding: 302 302 288
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 0 2<2 4 8 10> 18 2<2 4 8 10>
+VStem: 3 4 4 4<2 18>
 LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 -1 0 2
@@ -5185,7 +5200,8 @@ StartChar: iogonek
 Encoding: 303 303 289
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -5.8 6 0 2<2 4 8 10> 10 2<2 4> 16 4<4 8>
+VStem: 3 4 4 4<2 10 16 20>
 LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 -1 0.2 2
@@ -5197,7 +5213,8 @@ StartChar: uogonek
 Encoding: 371 371 290
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 0 2<4 10>
+VStem: 0 4<3 14> 4 4 10 4<3 14>
 LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 0 0 2
@@ -5209,7 +5226,8 @@ StartChar: Uogonek
 Encoding: 370 370 291
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 0 2<4 10>
+VStem: 0 4<3 20> 4 4 10 4<3 20>
 LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 0 0 2
@@ -5221,7 +5239,8 @@ StartChar: Scedilla
 Encoding: 350 350 292
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 0 2<4 10> 18 2<4 10>
+VStem: 0 4<3 4 14 17> 6 4 10 4<3 7 16 17>
 LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 0 0 2
@@ -5233,7 +5252,8 @@ StartChar: scedilla
 Encoding: 351 351 293
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 0 2<4 10> 12 2<4 10>
+VStem: 0 4<3 4 10 11> 6 4 10 4<3 4 10 11>
 LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 0 0 2
@@ -5245,7 +5265,8 @@ StartChar: uni0162
 Encoding: 354 354 294
 Width: 16
 UnlinkRmOvrlpSave: 1
-Flags: H
+HStem: -6 6 0 21G<4 8> 18 2<0 4 8 12>
+VStem: 4 4<0 18> 5 4
 LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 -1 0 2
