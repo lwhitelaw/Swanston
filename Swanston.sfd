@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683072477
+ModificationTime: 1683072760
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 32 32 8
+WinInfo: 352 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 325
+BeginChars: 65536 329
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -5801,6 +5801,7 @@ Width: 16
 Flags: W
 HStem: 0 2<10 14> 6 2<4 6> 10 2<10 14> 18 2<4 6 10 14>
 VStem: 0 4<0 6 8 17> 6 4<2 6 8 10 12 18>
+AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5835,6 +5836,7 @@ Encoding: 230 230 315
 Width: 16
 HStem: 0 2<4 6 10 14> 8 2<4 6> 12 2<2 6>
 VStem: 0 4<3 7> 6 4<2 4 6 8>
+AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6141,6 +6143,46 @@ SplineSet
  4 0 l 25
  0 0 l 1
 EndSplineSet
+EndChar
+
+StartChar: Oslashacute
+Encoding: 510 510 325
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+Refer: 104 769 N 1 0 0 1 -1 0 2
+Refer: 320 216 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: oslashacute
+Encoding: 511 511 326
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+Refer: 104 769 N 1 0 0 1 -1 -6 2
+Refer: 321 248 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: AEacute
+Encoding: 508 508 327
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+Refer: 104 769 N 1 0 0 1 -1 0 2
+Refer: 314 198 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aeacute
+Encoding: 509 509 328
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+Refer: 104 769 N 1 0 0 1 -1 -6 2
+Refer: 315 230 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
