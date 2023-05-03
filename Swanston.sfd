@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683081578
+ModificationTime: 1683081876
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 224 32 8
+WinInfo: 32 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1322,6 +1322,7 @@ SplineSet
  0 0 l 29
  0 20 l 29xa0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: M
@@ -3691,6 +3692,7 @@ LayerCount: 2
 Fore
 Refer: 104 769 N 1 0 0 1 -6 0 2
 Refer: 43 76 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: lacute
@@ -5852,6 +5854,7 @@ EndChar
 StartChar: ae
 Encoding: 230 230 315
 Width: 16
+Flags: HO
 HStem: 0 2<4 6 10 14> 8 2<4 6> 12 2<2 6>
 VStem: 0 4<3 7> 6 4<2 4 6 8>
 AnchorPoint: "top" 7 14 basechar 0
@@ -5868,8 +5871,8 @@ SplineSet
  10 6 l 5
  12 6 l 5
  12 10 l 5
-2 14 m 5
- 11 14 l 5
+2 14 m 1
+ 11 14 l 1
  14 11 l 5
  14 4 l 5
  10 4 l 5
@@ -5883,9 +5886,8 @@ SplineSet
  6 10 l 5
  6 12 l 5
  2 12 l 29
- 2 14 l 5
+ 2 14 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Eth
@@ -6214,7 +6216,6 @@ LayerCount: 2
 Fore
 Refer: 104 769 N 1 0 0 1 -1 -6 2
 Refer: 315 230 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Dcroat
@@ -6249,6 +6250,7 @@ SplineSet
  2 12 l 5
  2 20 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dcroat
@@ -6281,6 +6283,7 @@ SplineSet
  8 2 l 1
  8 12 l 1x6c
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni030B
@@ -6302,6 +6305,7 @@ SplineSet
  2 22 l 5
  4 26 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ogonek
@@ -6320,6 +6324,7 @@ SplineSet
  4 -3 l 29
  6 0 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: hungarumlaut
@@ -6340,6 +6345,7 @@ SplineSet
  2 22 l 5
  4 26 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni02C9
@@ -6355,6 +6361,7 @@ SplineSet
  2 22 l 5
  2 26 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: caron
@@ -6372,6 +6379,7 @@ SplineSet
  11 26 l 5
  14 26 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: circumflex
@@ -6389,6 +6397,7 @@ SplineSet
  5 22 l 5
  2 22 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ohungarumlaut
@@ -6399,6 +6408,7 @@ LayerCount: 2
 Fore
 Refer: 331 779 N 1 0 0 1 -1 0 2
 Refer: 46 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ohungarumlaut
@@ -6409,6 +6419,7 @@ LayerCount: 2
 Fore
 Refer: 331 779 N 1 0 0 1 -1 -6 2
 Refer: 77 111 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Uhungarumlaut
@@ -6419,6 +6430,7 @@ LayerCount: 2
 Fore
 Refer: 331 779 N 1 0 0 1 -1 0 2
 Refer: 52 85 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uhungarumlaut
@@ -6429,6 +6441,7 @@ LayerCount: 2
 Fore
 Refer: 331 779 N 1 0 0 1 -1 -6 2
 Refer: 83 117 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: dcaron
@@ -6460,6 +6473,7 @@ SplineSet
  6 14 l 1x2c
  6 20 l 25x8c
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0122
@@ -6496,6 +6510,7 @@ SplineSet
  0 3 l 1
  0 17 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0123
@@ -6533,6 +6548,7 @@ SplineSet
  10 4 l 1
  10 12 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Hbar
@@ -6562,6 +6578,7 @@ SplineSet
  10 14 l 1
  4 14 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: hbar
@@ -6592,6 +6609,7 @@ SplineSet
  2 18 l 1
  2 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: IJ
@@ -6621,6 +6639,7 @@ SplineSet
  0 0 l 1
  0 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ij
@@ -6661,6 +6680,7 @@ SplineSet
  4 0 l 5
  0 0 l 5x26
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0136
@@ -6690,6 +6710,7 @@ SplineSet
  0 0 l 25
  0 20 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0137
@@ -6720,6 +6741,7 @@ SplineSet
  0 0 l 25
  0 20 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: kgreenlandic
@@ -6743,6 +6765,7 @@ SplineSet
  0 0 l 25
  0 14 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni013B
@@ -6767,6 +6790,7 @@ SplineSet
  0 0 l 1
  0 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Lcaron
@@ -6793,6 +6817,7 @@ SplineSet
  0 0 l 29
  0 20 l 29xa0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ldot
@@ -6817,6 +6842,7 @@ SplineSet
  0 0 l 25
  0 20 l 25xa0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni013C
@@ -6844,6 +6870,7 @@ SplineSet
  6 3 l 1
  6 20 l 1x30
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: lcaron
@@ -6870,6 +6897,7 @@ SplineSet
  4 3 l 1
  4 20 l 1x60
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ldot
@@ -6894,6 +6922,7 @@ SplineSet
  4 3 l 1
  4 20 l 1x60
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: lslash
@@ -6921,6 +6950,7 @@ SplineSet
  6 8 l 1
  6 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Lslash
@@ -6947,6 +6977,7 @@ SplineSet
  2 8 l 1
  2 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0145
@@ -6976,6 +7007,7 @@ SplineSet
  0 0 l 1
  0 20 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0146
@@ -7004,6 +7036,7 @@ SplineSet
  4 0 l 1
  0 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: napostrophe
@@ -7030,6 +7063,7 @@ SplineSet
  4 0 l 1
  0 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: eng
@@ -7053,6 +7087,7 @@ SplineSet
  4 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Eng
@@ -7076,6 +7111,7 @@ SplineSet
  4 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: OE
@@ -7107,12 +7143,13 @@ SplineSet
  0 17 l 5
  3 20 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: oe
 Encoding: 339 339 365
 Width: 16
-Flags: HWO
+Flags: HW
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
@@ -7140,6 +7177,7 @@ SplineSet
  0 11 l 5
  3 14 l 5
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
