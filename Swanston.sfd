@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683073464
+ModificationTime: 1683073505
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 608 32 8
+WinInfo: 224 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 337
+BeginChars: 65536 341
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -6379,7 +6379,7 @@ EndChar
 StartChar: circumflex
 Encoding: 710 710 336
 Width: 16
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6391,6 +6391,46 @@ SplineSet
  5 22 l 5
  2 22 l 5
 EndSplineSet
+EndChar
+
+StartChar: Ohungarumlaut
+Encoding: 336 336 337
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+Refer: 331 779 N 1 0 0 1 -1 0 2
+Refer: 46 79 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ohungarumlaut
+Encoding: 337 337 338
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+Refer: 331 779 N 1 0 0 1 -1 -6 2
+Refer: 77 111 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Uhungarumlaut
+Encoding: 368 368 339
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+Refer: 331 779 N 1 0 0 1 -1 0 2
+Refer: 52 85 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uhungarumlaut
+Encoding: 369 369 340
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+Refer: 331 779 N 1 0 0 1 -1 -6 2
+Refer: 83 117 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
