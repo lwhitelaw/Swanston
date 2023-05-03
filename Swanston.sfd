@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683082432
+ModificationTime: 1683134374
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 160 32 8
+WinInfo: 288 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 372
+BeginChars: 65536 373
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -1956,22 +1956,22 @@ VStem: 4 4<0 12 14 17>
 LayerCount: 2
 Fore
 SplineSet
-4 0 m 1
- 4 12 l 25
- 0 12 l 25
- 0 14 l 25
- 4 14 l 1
- 4 17 l 1
- 7 20 l 1
- 12 20 l 1
- 12 18 l 1
- 8 18 l 1
- 8 14 l 1
- 12 14 l 1
- 12 12 l 1
- 8 12 l 1
- 8 0 l 1
- 4 0 l 1
+4 0 m 5
+ 4 12 l 29
+ 0 12 l 29
+ 0 14 l 29
+ 4 14 l 5
+ 4 17 l 5
+ 7 20 l 5
+ 12 20 l 5
+ 12 18 l 5
+ 8 18 l 5
+ 8 14 l 5
+ 12 14 l 5
+ 12 12 l 5
+ 8 12 l 5
+ 8 0 l 5
+ 4 0 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -7365,6 +7365,37 @@ SplineSet
  8 20 l 1x60
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: florin
+Encoding: 402 402 372
+Width: 16
+Flags: WO
+HStem: -4 2<0 4> 12 2<0 4 8 12>
+VStem: 4 4<-1 12 14 17>
+LayerCount: 2
+Fore
+SplineSet
+0 -2 m 1
+ 4 -2 l 1
+ 4 12 l 1
+ 0 12 l 1
+ 0 14 l 1
+ 4 14 l 1
+ 4 17 l 1
+ 7 20 l 1
+ 12 20 l 1
+ 12 18 l 1
+ 8 18 l 1
+ 8 14 l 1
+ 12 14 l 1
+ 12 12 l 1
+ 8 12 l 1
+ 8 -1 l 1
+ 5 -4 l 1
+ 0 -4 l 1
+ 0 -2 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
