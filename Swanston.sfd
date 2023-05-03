@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683145313
+ModificationTime: 1683146475
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 800 32 8
+WinInfo: 864 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 403
+BeginChars: 65536 411
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -7825,6 +7825,154 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 46 79 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Pi
+Encoding: 928 928 403
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 20 m 25
+ 14 20 l 25
+ 14 0 l 1
+ 10 0 l 5
+ 10 18 l 1
+ 4 18 l 1
+ 4 0 l 1
+ 0 0 l 1
+ 0 20 l 25
+EndSplineSet
+EndChar
+
+StartChar: Rho
+Encoding: 929 929 404
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 47 80 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Sigma
+Encoding: 931 931 405
+Width: 16
+HStem: 0 2<4 14> 18 2<4 14>
+LayerCount: 2
+Fore
+SplineSet
+0 20 m 1
+ 14 20 l 25
+ 14 18 l 25
+ 4 18 l 25
+ 10 11 l 29
+ 10 9 l 29
+ 4 2 l 25
+ 14 2 l 25
+ 14 0 l 25
+ 0 0 l 1
+ 0 3 l 25
+ 6 10 l 5
+ 0 17 l 25
+ 0 20 l 1
+EndSplineSet
+EndChar
+
+StartChar: Tau
+Encoding: 932 932 406
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 51 84 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Upsilon
+Encoding: 933 933 407
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 56 89 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Phi
+Encoding: 934 934 408
+Width: 16
+HStem: 0 21G<6 8> 0 20G<6 8> 2 2<4 6 8 10> 16 2<4 6 8 10>
+VStem: 0 4<5 15> 6 2<0 2 4 16 18 20>
+LayerCount: 2
+Fore
+SplineSet
+10 16 m 1x3c
+ 8 16 l 1
+ 8 4 l 5
+ 10 4 l 5
+ 10 16 l 1x3c
+6 16 m 25
+ 4 16 l 25
+ 4 4 l 29
+ 6 4 l 29
+ 6 16 l 25
+0 15 m 1
+ 3 18 l 1
+ 6 18 l 1x3c
+ 6 20 l 1
+ 8 20 l 1x4c
+ 8 18 l 1
+ 11 18 l 1
+ 14 15 l 1
+ 14 5 l 1
+ 11 2 l 1
+ 8 2 l 1x3c
+ 8 0 l 1
+ 6 0 l 1x8c
+ 6 2 l 1
+ 3 2 l 1
+ 0 5 l 1
+ 0 15 l 1
+EndSplineSet
+EndChar
+
+StartChar: Chi
+Encoding: 935 935 409
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 55 88 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Psi
+Encoding: 936 936 410
+Width: 16
+Flags: MO
+HStem: 4 2<4 6 8 10>
+VStem: 0 4<7 20> 6 2<0 4 6 20> 10 4<7 20>
+LayerCount: 2
+Fore
+SplineSet
+0 20 m 25
+ 4 20 l 1
+ 4 6 l 5
+ 6 6 l 5
+ 6 20 l 1
+ 8 20 l 1
+ 8 6 l 5
+ 10 6 l 5
+ 10 20 l 1
+ 14 20 l 1
+ 14 7 l 5
+ 11 4 l 5
+ 8 4 l 5
+ 8 0 l 25
+ 6 0 l 25
+ 6 4 l 29
+ 3 4 l 29
+ 0 7 l 29
+ 0 20 l 25
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
