@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683134532
+ModificationTime: 1683134690
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 384 32 8
+WinInfo: 288 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 374
+BeginChars: 65536 375
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -662,24 +662,24 @@ AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-8 16 m 1
- 6 16 l 1
- 4 12 l 1
- 4 8 l 1
- 10 8 l 1
- 10 12 l 1
- 8 16 l 1
-4 20 m 1
- 10 20 l 1
- 14 12 l 1
- 14 0 l 1
- 10 0 l 1
- 10 6 l 1
- 4 6 l 1
- 4 0 l 1
- 0 0 l 1
- 0 12 l 25
- 4 20 l 1
+8 16 m 5
+ 6 16 l 5
+ 4 12 l 5
+ 4 8 l 5
+ 10 8 l 5
+ 10 12 l 5
+ 8 16 l 5
+4 20 m 5
+ 10 20 l 5
+ 14 12 l 5
+ 14 0 l 5
+ 10 0 l 5
+ 10 6 l 5
+ 4 6 l 5
+ 4 0 l 5
+ 0 0 l 5
+ 0 12 l 29
+ 4 20 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -7401,11 +7401,44 @@ EndChar
 StartChar: aringacute
 Encoding: 507 507 373
 Width: 16
-Flags: HO
+Flags: H
 LayerCount: 2
 Fore
 Refer: 104 769 S 1 0 0 1 -1 -1 2
 Refer: 261 229 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Aringacute
+Encoding: 506 506 374
+Width: 16
+Flags: MWO
+HStem: 2 2<4 10> 10 4<6 8> 15 2<6 8> 18 2<6 8> 21 4<7 9>
+AnchorPoint: "top" 7 14 basechar 0
+AnchorPoint: "bottom" 12 -0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+8 10 m 1
+ 6 10 l 1
+ 4 6 l 1
+ 4 4 l 1
+ 10 4 l 1
+ 10 6 l 1
+ 8 10 l 1
+4 14 m 1
+ 10 14 l 1
+ 14 6 l 1
+ 14 0 l 1
+ 10 0 l 1
+ 10 2 l 1
+ 4 2 l 1
+ 4 0 l 1
+ 0 0 l 1
+ 0 6 l 25
+ 4 14 l 1
+EndSplineSet
+Refer: 104 769 N 1 0 0 1 -1 -1 2
+Refer: 247 778 S 1 0 0 1 -1 -6 2
 EndChar
 EndChars
 EndSplineFont
