@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 224 32 8
+WinInfo: 160 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5888,6 +5888,7 @@ SplineSet
  2 12 l 29
  2 14 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Eth
@@ -6216,6 +6217,7 @@ LayerCount: 2
 Fore
 Refer: 104 769 N 1 0 0 1 -1 -6 2
 Refer: 315 230 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Dcroat
@@ -7215,6 +7217,7 @@ SplineSet
  4 0 l 1
  0 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0157
@@ -7241,6 +7244,7 @@ SplineSet
  1 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: tcaron
@@ -7275,6 +7279,7 @@ SplineSet
  4 14 l 25
  4 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Tbar
@@ -7304,6 +7309,7 @@ SplineSet
  0 18 l 1
  0 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: tbar
@@ -7339,6 +7345,7 @@ SplineSet
  4 14 l 1
  4 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: longs
@@ -7357,6 +7364,7 @@ SplineSet
  4 16 l 1
  8 20 l 1x60
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
