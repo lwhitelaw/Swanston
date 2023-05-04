@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683167645
+ModificationTime: 1683167892
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 928 32 8
+WinInfo: 1024 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 541
+BeginChars: 65536 545
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -10559,7 +10559,7 @@ EndChar
 StartChar: uni0459
 Encoding: 1113 1113 540
 Width: 16
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10581,6 +10581,110 @@ SplineSet
  2 12 l 5
  2 0 l 1
  0 0 l 25
+EndSplineSet
+EndChar
+
+StartChar: uni0414
+Encoding: 1044 1044 541
+Width: 16
+Flags: M
+HStem: -4 6<0 2 12 14> 18 2<6 8>
+VStem: 2 4<2 17> 8 4<2 18>
+LayerCount: 2
+Fore
+SplineSet
+8 18 m 5
+ 6 18 l 5
+ 6 2 l 5
+ 8 2 l 5
+ 8 18 l 5
+0 -4 m 5
+ 0 2 l 29
+ 2 2 l 5
+ 2 17 l 29
+ 5 20 l 5
+ 12 20 l 5
+ 12 2 l 5
+ 14 2 l 5
+ 14 -4 l 5
+ 10 -4 l 5
+ 10 0 l 5
+ 4 0 l 5
+ 4 -4 l 5
+ 0 -4 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni0434
+Encoding: 1076 1076 542
+Width: 16
+Flags: MW
+HStem: -4 6<0 2 12 14> 12 2<6 8>
+VStem: 2 4<2 11> 8 4<2 12>
+LayerCount: 2
+Fore
+SplineSet
+8 12 m 5
+ 6 12 l 5
+ 6 2 l 1
+ 8 2 l 1
+ 8 12 l 5
+0 -4 m 1
+ 0 2 l 25
+ 2 2 l 1
+ 2 11 l 29
+ 5 14 l 5
+ 12 14 l 5
+ 12 2 l 1
+ 14 2 l 1
+ 14 -4 l 1
+ 10 -4 l 1
+ 10 0 l 1
+ 4 0 l 1
+ 4 -4 l 1
+ 0 -4 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni0490
+Encoding: 1168 1168 543
+Width: 16
+Flags: MO
+HStem: 18 2<4 10>
+VStem: 0 4<0 18> 10 4<20 22>
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 5
+ 0 20 l 5
+ 10 20 l 29
+ 10 22 l 5
+ 14 22 l 5
+ 14 18 l 5
+ 4 18 l 5
+ 4 0 l 5
+ 0 0 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni0491
+Encoding: 1169 1169 544
+Width: 16
+Flags: MW
+HStem: 12 2<4 10>
+VStem: 0 4<0 12> 10 4<14 16>
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 0 14 l 1
+ 10 14 l 25
+ 10 16 l 1
+ 14 16 l 1
+ 14 12 l 1
+ 4 12 l 1
+ 4 0 l 1
+ 0 0 l 1
 EndSplineSet
 EndChar
 EndChars
