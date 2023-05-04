@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683165696
+ModificationTime: 1683166070
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 527
+BeginChars: 65536 529
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -8866,6 +8866,7 @@ StartChar: uni0413
 Encoding: 1043 1043 458
 Width: 16
 Flags: HW
+AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 Refer: 388 915 S 1 0 0 1 0 0 2
@@ -9154,6 +9155,7 @@ StartChar: uni0433
 Encoding: 1075 1075 486
 Width: 16
 Flags: H
+AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10138,6 +10140,26 @@ LayerCount: 2
 Fore
 Refer: 131 774 N 1 0 0 1 -1 0 2
 Refer: 523 1059 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0403
+Encoding: 1027 1027 527
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+Refer: 104 769 N 1 0 0 1 -1 0 2
+Refer: 458 1043 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0453
+Encoding: 1107 1107 528
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+Refer: 104 769 N 1 0 0 1 -1 -6 2
+Refer: 486 1075 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
