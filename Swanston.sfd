@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683160953
+ModificationTime: 1683161623
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 896 32 8
+WinInfo: 992 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 454
+BeginChars: 65536 477
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -8819,10 +8819,218 @@ EndChar
 StartChar: uni0408
 Encoding: 1032 1032 453
 Width: 16
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 41 74 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni040C
+Encoding: 1036 1036 454
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 104 769 S 1 0 0 1 -1 0 2
+Refer: 42 75 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0410
+Encoding: 1040 1040 455
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 20 65 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0412
+Encoding: 1042 1042 456
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 21 66 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0415
+Encoding: 1045 1045 457
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 36 69 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0413
+Encoding: 1043 1043 458
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 388 915 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni041C
+Encoding: 1052 1052 459
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 44 77 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni041A
+Encoding: 1050 1050 460
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 42 75 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni041D
+Encoding: 1053 1053 461
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 39 72 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni041E
+Encoding: 1054 1054 462
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 46 79 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni041F
+Encoding: 1055 1055 463
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 403 928 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0420
+Encoding: 1056 1056 464
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 47 80 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0421
+Encoding: 1057 1057 465
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 22 67 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0422
+Encoding: 1058 1058 466
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 51 84 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0424
+Encoding: 1060 1060 467
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 408 934 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0425
+Encoding: 1061 1061 468
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 55 88 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0430
+Encoding: 1072 1072 469
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 63 97 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0435
+Encoding: 1077 1077 470
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 67 101 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni043E
+Encoding: 1086 1086 471
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 77 111 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0440
+Encoding: 1088 1088 472
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 78 112 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0441
+Encoding: 1089 1089 473
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 65 99 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0445
+Encoding: 1093 1093 474
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 86 120 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0455
+Encoding: 1109 1109 475
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 81 115 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni043A
+Encoding: 1082 1082 476
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 350 312 S 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
