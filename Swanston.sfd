@@ -10649,7 +10649,7 @@ EndChar
 StartChar: uni0490
 Encoding: 1168 1168 543
 Width: 16
-Flags: MO
+Flags: M
 HStem: 18 2<4 10>
 VStem: 0 4<0 18> 10 4<20 22>
 LayerCount: 2
