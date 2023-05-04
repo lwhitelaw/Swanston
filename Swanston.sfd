@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683157670
+ModificationTime: 1683160953
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 832 32 8
+WinInfo: 896 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 447
+BeginChars: 65536 454
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -7396,6 +7396,7 @@ SplineSet
  0 -4 l 1
  0 -2 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: aringacute
@@ -7406,6 +7407,7 @@ LayerCount: 2
 Fore
 Refer: 104 769 S 1 0 0 1 -1 -1 2
 Refer: 261 229 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Aringacute
@@ -7439,6 +7441,7 @@ SplineSet
 EndSplineSet
 Refer: 104 769 N 1 0 0 1 -1 -1 2
 Refer: 247 778 S 1 0 0 1 -1 -6 2
+Validated: 1
 EndChar
 
 StartChar: tonos
@@ -7448,6 +7451,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 104 769 S 1 0 0 1 0 -6 2
+Validated: 1
 EndChar
 
 StartChar: dieresistonos
@@ -7474,6 +7478,7 @@ SplineSet
  0 16 l 25
  0 20 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: anoteleia
@@ -7483,6 +7488,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 305 183 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Alphatonos
@@ -7493,6 +7499,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 -6 6 2
 Refer: 20 65 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Epsilontonos
@@ -7503,6 +7510,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 -6 6 2
 Refer: 36 69 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Etatonos
@@ -7513,6 +7521,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 -6 6 2
 Refer: 39 72 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Iotatonos
@@ -7523,6 +7532,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 -6 6 2
 Refer: 40 73 N 1 0 0 1 4 0 2
+Validated: 1
 EndChar
 
 StartChar: Omicrontonos
@@ -7533,6 +7543,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 -6 6 2
 Refer: 46 79 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Upsilontonos
@@ -7543,6 +7554,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 -6 6 2
 Refer: 56 89 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni03A9
@@ -7579,6 +7591,7 @@ SplineSet
  0 0 l 1
  0 2 l 1xe0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Omegatonos
@@ -7589,6 +7602,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 -6 6 2
 Refer: 384 937 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: iota
@@ -7608,6 +7622,7 @@ SplineSet
  6 3 l 1
  6 14 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: iotadieresistonos
@@ -7618,6 +7633,7 @@ LayerCount: 2
 Fore
 Refer: 376 901 N 1 0 0 1 0 0 2
 Refer: 386 953 S 1 0 0 1 -2 0 2
+Validated: 1
 EndChar
 
 StartChar: Gamma
@@ -7635,6 +7651,7 @@ SplineSet
  0 0 l 25
  0 20 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0394
@@ -7655,6 +7672,7 @@ SplineSet
  14 0 l 29
  0 0 l 29
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Lambda
@@ -7676,6 +7694,7 @@ SplineSet
  4 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Alpha
@@ -7685,6 +7704,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 20 65 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Beta
@@ -7694,6 +7714,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 21 66 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Epsilon
@@ -7703,6 +7724,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 36 69 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Zeta
@@ -7712,6 +7734,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 57 90 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Eta
@@ -7721,6 +7744,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 39 72 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Theta
@@ -7755,6 +7779,7 @@ SplineSet
  0 17 l 5
  3 20 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Iota
@@ -7764,6 +7789,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 40 73 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Kappa
@@ -7773,6 +7799,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 42 75 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Mu
@@ -7782,6 +7809,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 44 77 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Nu
@@ -7791,6 +7819,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 45 78 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Xi
@@ -7816,6 +7845,7 @@ SplineSet
  0 18 l 1
  0 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Omicron
@@ -7825,12 +7855,15 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 46 79 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Pi
 Encoding: 928 928 403
 Width: 16
-Flags: H
+Flags: M
+HStem: 18 2<4 10>
+VStem: 0 4<0 18> 10 4<0 18>
 LayerCount: 2
 Fore
 SplineSet
@@ -7844,15 +7877,19 @@ SplineSet
  0 0 l 1
  0 20 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Rho
 Encoding: 929 929 404
 Width: 16
-Flags: HW
+Flags: W
+HStem: 10 2<4 10> 18 2<4 10>
+VStem: 0 4<0 10 12 18> 10 4<13 17>
 LayerCount: 2
 Fore
 Refer: 47 80 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Sigma
@@ -7877,24 +7914,30 @@ SplineSet
  0 17 l 25
  0 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Tau
 Encoding: 932 932 406
 Width: 16
-Flags: HW
+Flags: MW
+HStem: 18 2<0 4 8 12>
+VStem: 4 4<0 18>
 LayerCount: 2
 Fore
 Refer: 51 84 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Upsilon
 Encoding: 933 933 407
 Width: 16
-Flags: HW
+Flags: W
+VStem: 5 4<0 8>
 LayerCount: 2
 Fore
 Refer: 56 89 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Phi
@@ -7933,6 +7976,7 @@ SplineSet
  0 5 l 5
  0 15 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Chi
@@ -7942,6 +7986,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 55 88 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Psi
@@ -7973,6 +8018,7 @@ SplineSet
  0 7 l 29
  0 20 l 29
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Iotadieresis
@@ -7983,6 +8029,7 @@ LayerCount: 2
 Fore
 Refer: 133 776 S 1 0 0 1 -2 0 2
 Refer: 397 921 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Upsilondieresis
@@ -7993,6 +8040,7 @@ LayerCount: 2
 Fore
 Refer: 133 776 S 1 0 0 1 -1 0 2
 Refer: 407 933 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: alpha
@@ -8028,6 +8076,7 @@ SplineSet
  0 11 l 1
  3 14 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: epsilon
@@ -8058,6 +8107,7 @@ SplineSet
  0 11 l 5
  3 14 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: alphatonos
@@ -8068,6 +8118,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 0 0 2
 Refer: 413 945 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: epsilontonos
@@ -8078,6 +8129,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 0 0 2
 Refer: 414 949 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: eta
@@ -8098,6 +8150,7 @@ SplineSet
  4 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: omicron
@@ -8107,6 +8160,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 77 111 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni03BC
@@ -8116,6 +8170,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 303 181 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: kappa
@@ -8125,6 +8180,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 350 312 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: omicrontonos
@@ -8135,6 +8191,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 -1 0 2
 Refer: 418 959 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: iotadieresis
@@ -8145,15 +8202,19 @@ LayerCount: 2
 Fore
 Refer: 133 776 N 1 0 0 1 0 -6 2
 Refer: 386 953 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: upsilon
 Encoding: 965 965 423
 Width: 16
-Flags: HW
+Flags: W
+HStem: 0 2<4 10>
+VStem: 0 4<3 14> 10 4<3 14>
 LayerCount: 2
 Fore
 Refer: 83 117 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: nu
@@ -8163,6 +8224,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 84 118 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: theta
@@ -8194,6 +8256,7 @@ SplineSet
  10 10 l 1
  4 10 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: beta
@@ -8222,12 +8285,14 @@ SplineSet
  4 -4 l 29
  0 -4 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: sigma
 Encoding: 963 963 427
 Width: 16
-Flags: H
+HStem: 0 2<4 8> 12 2<4 8 12 14>
+VStem: 0 4<3 11> 8 4<3 12>
 LayerCount: 2
 Fore
 SplineSet
@@ -8247,12 +8312,12 @@ SplineSet
  0 3 l 1
  0 11 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: tau
 Encoding: 964 964 428
 Width: 16
-Flags: H
 HStem: 0 2<8 12> 12 2<0 4 8 12>
 VStem: 4 4<3 12>
 LayerCount: 2
@@ -8271,6 +8336,7 @@ SplineSet
  0 12 l 5
  0 14 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: upsilondieresis
@@ -8281,6 +8347,7 @@ LayerCount: 2
 Fore
 Refer: 133 776 N 1 0 0 1 -1 -7 2
 Refer: 423 965 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: upsilontonos
@@ -8291,6 +8358,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 -1 0 2
 Refer: 423 965 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: upsilondieresistonos
@@ -8301,6 +8369,7 @@ LayerCount: 2
 Fore
 Refer: 376 901 S 1 0 0 1 0 0 2
 Refer: 423 965 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: iotatonos
@@ -8311,6 +8380,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 0 0 2
 Refer: 386 953 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: etatonos
@@ -8321,6 +8391,7 @@ LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 0 0 2
 Refer: 417 951 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: gamma
@@ -8341,6 +8412,7 @@ SplineSet
  5 2 l 1
  0 14 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: lambda
@@ -8360,6 +8432,7 @@ SplineSet
  5 10 l 5
  0 20 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: psi
@@ -8389,6 +8462,7 @@ SplineSet
  0 3 l 25
  0 14 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: phi
@@ -8422,6 +8496,7 @@ SplineSet
  0 3 l 1
  0 14 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: chi
@@ -8446,6 +8521,7 @@ SplineSet
  5 5 l 1
  0 14 l 1x80
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: rho
@@ -8473,6 +8549,7 @@ SplineSet
  4 -4 l 1
  0 -4 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: pi
@@ -8498,6 +8575,7 @@ SplineSet
  0 12 l 1
  0 14 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: omega
@@ -8531,6 +8609,7 @@ SplineSet
  0 3 l 1
  0 11 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: delta
@@ -8560,6 +8639,7 @@ SplineSet
  6 18 l 5
  6 20 l 13x98
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: sigma1
@@ -8590,6 +8670,7 @@ SplineSet
  0 11 l 1
  3 14 l 1x78
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: zeta
@@ -8618,6 +8699,7 @@ SplineSet
  0 18 l 5
  0 20 l 5x78
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: xi
@@ -8650,16 +8732,97 @@ SplineSet
  0 17 l 1
  3 20 l 1x7c
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: omegatonos
 Encoding: 974 974 446
 Width: 16
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 375 900 S 1 0 0 1 -1 0 2
 Refer: 441 969 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni0400
+Encoding: 1024 1024 447
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 95 200 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0401
+Encoding: 1025 1025 448
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 135 203 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni045F
+Encoding: 1119 1119 449
+Width: 16
+HStem: -6 20G<0 4 10 14> -2 4<6 8> 0 2<4 6 8 10>
+VStem: 0 4<2 14> 6 2<-2 0> 10 4<2 14>
+CounterMasks: 1 1c
+LayerCount: 2
+Fore
+SplineSet
+0 14 m 1x9c
+ 4 14 l 25x9c
+ 4 2 l 1
+ 10 2 l 5x3c
+ 10 14 l 1
+ 14 14 l 1x9c
+ 14 0 l 25
+ 8 0 l 25x3c
+ 8 -2 l 25
+ 6 -2 l 25x5c
+ 6 0 l 25
+ 0 0 l 25x3c
+ 0 14 l 1x9c
+EndSplineSet
+EndChar
+
+StartChar: uni0405
+Encoding: 1029 1029 450
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 50 83 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0406
+Encoding: 1030 1030 451
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 40 73 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0407
+Encoding: 1031 1031 452
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 136 207 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0408
+Encoding: 1032 1032 453
+Width: 16
+Flags: HWO
+LayerCount: 2
+Fore
+Refer: 41 74 S 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
