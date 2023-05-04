@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683167892
+ModificationTime: 1683168778
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1024 32 8
+WinInfo: 928 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -10385,6 +10385,7 @@ SplineSet
  0 0 l 1
  0 2 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni043B
@@ -10406,33 +10407,35 @@ SplineSet
  0 0 l 1
  0 2 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0431
 Encoding: 1073 1073 535
 Width: 16
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
 4 12 m 25
- 10 12 l 25
- 10 2 l 25
  4 2 l 25
+ 10 2 l 25
+ 10 12 l 25
  4 12 l 25
 10 18 m 1
- 10 20 l 1
- 6 20 l 5
- 0 14 l 1
- 0 0 l 1
- 11 0 l 1
- 14 3 l 1
- 14 11 l 1
- 11 14 l 1
- 4 14 l 1
  8 18 l 1
+ 4 14 l 1
+ 11 14 l 1
+ 14 11 l 1
+ 14 3 l 1
+ 11 0 l 1
+ 0 0 l 1
+ 0 14 l 1
+ 6 20 l 1
+ 10 20 l 1
  10 18 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni040B
@@ -10460,6 +10463,7 @@ SplineSet
  0 18 l 5
  0 20 l 5x38
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0402
@@ -10491,6 +10495,7 @@ SplineSet
  0 18 l 5
  0 20 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0452
@@ -10525,6 +10530,7 @@ SplineSet
  2 18 l 1
  2 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0409
@@ -10554,6 +10560,7 @@ SplineSet
  2 0 l 5
  0 0 l 29
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0459
@@ -10582,6 +10589,7 @@ SplineSet
  2 0 l 1
  0 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0414
@@ -10613,6 +10621,7 @@ SplineSet
  4 -4 l 5
  0 -4 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0434
@@ -10644,6 +10653,7 @@ SplineSet
  4 -4 l 1
  0 -4 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0490
@@ -10665,6 +10675,7 @@ SplineSet
  4 0 l 5
  0 0 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0491
@@ -10686,6 +10697,7 @@ SplineSet
  4 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
