@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683165045
+ModificationTime: 1683165384
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 928 32 8
+WinInfo: 960 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 514
+BeginChars: 65536 518
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -9904,6 +9904,114 @@ SplineSet
  3 0 l 1
  0 3 l 1
  0 11 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni040A
+Encoding: 1034 1034 514
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+4 20 m 5
+ 8 20 l 5
+ 8 14 l 5
+ 11 14 l 5
+ 14 11 l 5
+ 14 3 l 5
+ 11 0 l 5
+ 4 0 l 5
+ 4 12 l 5
+ 2 12 l 5
+ 2 0 l 5
+ 0 0 l 5
+ 0 20 l 5
+ 2 20 l 5
+ 2 14 l 5
+ 4 14 l 5
+ 4 20 l 5
+10 12 m 5
+ 8 12 l 5
+ 8 2 l 5
+ 10 2 l 5
+ 10 12 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni045A
+Encoding: 1114 1114 515
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+4 14 m 5
+ 8 14 l 5
+ 8 8 l 5
+ 11 8 l 5
+ 14 5 l 5
+ 14 3 l 1
+ 11 0 l 1
+ 4 0 l 1
+ 4 6 l 5
+ 2 6 l 5
+ 2 0 l 1
+ 0 0 l 1
+ 0 14 l 5
+ 2 14 l 5
+ 2 8 l 5
+ 4 8 l 5
+ 4 14 l 5
+10 6 m 5
+ 8 6 l 5
+ 8 2 l 1
+ 10 2 l 1
+ 10 6 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni0418
+Encoding: 1048 1048 516
+Width: 16
+Flags: HW
+AnchorPoint: "top" 7 20 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 29
+ 4 0 l 5
+ 10 12 l 29
+ 10 0 l 5
+ 14 0 l 29
+ 14 20 l 29
+ 10 20 l 5
+ 4 8 l 5
+ 4 20 l 5
+ 0 20 l 5
+ 0 0 l 29
+EndSplineSet
+EndChar
+
+StartChar: uni0438
+Encoding: 1080 1080 517
+Width: 16
+Flags: WO
+AnchorPoint: "top" 7 14 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 25
+ 4 0 l 1
+ 10 8 l 29
+ 10 0 l 1
+ 14 0 l 25
+ 14 14 l 25
+ 10 14 l 1
+ 4 6 l 1
+ 4 14 l 1
+ 0 14 l 1
+ 0 0 l 25
 EndSplineSet
 EndChar
 EndChars
