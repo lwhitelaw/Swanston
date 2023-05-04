@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683232432
+ModificationTime: 1683236146
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 593
+BeginChars: 65536 600
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -11857,7 +11857,7 @@ EndChar
 StartChar: seveneighths
 Encoding: 8542 8542 592
 Width: 16
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11888,6 +11888,170 @@ SplineSet
  2 2 l 1xd8
  0 2 l 1
  12 18 l 1xe8
+EndSplineSet
+EndChar
+
+StartChar: arrowleft
+Encoding: 8592 8592 593
+Width: 16
+HStem: 8 6<5 14>
+LayerCount: 2
+Fore
+SplineSet
+7 18 m 5
+ 9 18 l 5
+ 5 14 l 5
+ 14 14 l 5
+ 14 8 l 5
+ 5 8 l 5
+ 9 4 l 5
+ 7 4 l 5
+ 0 11 l 5
+ 7 18 l 5
+EndSplineSet
+EndChar
+
+StartChar: arrowright
+Encoding: 8594 8594 594
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+7 18 m 5
+ 5 18 l 5
+ 9 14 l 5
+ 0 14 l 5
+ 0 8 l 5
+ 9 8 l 5
+ 5 4 l 5
+ 7 4 l 5
+ 14 11 l 5
+ 7 18 l 5
+EndSplineSet
+EndChar
+
+StartChar: arrowup
+Encoding: 8593 8593 595
+Width: 16
+Flags: HMW
+VStem: 4 6<2 15>
+LayerCount: 2
+Fore
+SplineSet
+4 2 m 5
+ 4 15 l 5
+ 0 11 l 5
+ 0 13 l 5
+ 7 20 l 5
+ 14 13 l 5
+ 14 11 l 5
+ 10 15 l 5
+ 10 2 l 5
+ 4 2 l 5
+EndSplineSet
+EndChar
+
+StartChar: arrowdown
+Encoding: 8595 8595 596
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+4 20 m 5
+ 4 7 l 5
+ 0 11 l 5
+ 0 9 l 5
+ 7 2 l 5
+ 14 9 l 5
+ 14 11 l 5
+ 10 7 l 5
+ 10 20 l 5
+ 4 20 l 5
+EndSplineSet
+EndChar
+
+StartChar: arrowboth
+Encoding: 8596 8596 597
+Width: 16
+Flags: W
+HStem: 8 6<4 12>
+LayerCount: 2
+Fore
+SplineSet
+4 18 m 5
+ 6 18 l 5
+ 4 14 l 5
+ 12 14 l 5
+ 10 18 l 5
+ 12 18 l 5
+ 16 11 l 5
+ 12 4 l 5
+ 10 4 l 5
+ 12 8 l 5
+ 4 8 l 5
+ 6 4 l 5
+ 4 4 l 5
+ 0 11 l 5
+ 4 18 l 5
+EndSplineSet
+EndChar
+
+StartChar: arrowupdn
+Encoding: 8597 8597 598
+Width: 16
+Flags: W
+HStem: 0 20G<0 14> 13 21G<0 4 10 14>
+VStem: 4 6<6 16>
+LayerCount: 2
+Fore
+SplineSet
+4 6 m 5x60
+ 4 16 l 5
+ 0 13 l 5x60
+ 0 15 l 5
+ 7 20 l 5xa0
+ 14 15 l 5
+ 14 13 l 5
+ 10 16 l 5
+ 10 6 l 5
+ 14 9 l 5
+ 14 7 l 5
+ 7 2 l 5
+ 0 7 l 5
+ 0 9 l 5
+ 4 6 l 5x60
+EndSplineSet
+EndChar
+
+StartChar: arrowupdnbse
+Encoding: 8616 8616 599
+Width: 16
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+0 2 m 25
+ 14 2 l 25
+ 14 0 l 25
+ 0 0 l 25
+ 0 2 l 25
+4 6 m 1x60
+ 4 16 l 1
+ 0 13 l 1x60
+ 0 15 l 1
+ 7 20 l 1xa0
+ 14 15 l 1
+ 14 13 l 1
+ 10 16 l 1
+ 10 6 l 1
+ 14 9 l 1
+ 14 7 l 1
+ 7 2 l 1
+ 0 7 l 1
+ 0 9 l 1
+ 4 6 l 1x60
 EndSplineSet
 EndChar
 EndChars
