@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683251010
+ModificationTime: 1683252082
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8832 32 8
+WinInfo: 9344 32 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -67,7 +67,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 621
+BeginChars: 65536 632
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -12574,6 +12574,205 @@ SplineSet
  8 26 l 5
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: SF100000
+Encoding: 9472 9472 621
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 12 m 29
+ 16 12 l 29
+ 16 10 l 29
+ 0 10 l 29
+ 0 12 l 29
+EndSplineSet
+EndChar
+
+StartChar: SF110000
+Encoding: 9474 9474 622
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+6 26 m 29
+ 8 26 l 29
+ 8 -6 l 29
+ 6 -6 l 29
+ 6 26 l 29
+EndSplineSet
+EndChar
+
+StartChar: SF010000
+Encoding: 9484 9484 623
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+6 12 m 5
+ 16 12 l 29
+ 16 10 l 29
+ 8 10 l 29
+ 8 -6 l 1
+ 6 -6 l 25
+ 6 12 l 5
+EndSplineSet
+EndChar
+
+StartChar: SF030000
+Encoding: 9488 9488 624
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 12 m 29
+ 8 12 l 29
+ 8 -6 l 25
+ 6 -6 l 25
+ 6 10 l 29
+ 0 10 l 29
+ 0 12 l 29
+EndSplineSet
+EndChar
+
+StartChar: SF020000
+Encoding: 9492 9492 625
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+6 26 m 25
+ 8 26 l 25
+ 8 12 l 29
+ 16 12 l 29
+ 16 10 l 29
+ 6 10 l 29
+ 6 26 l 25
+EndSplineSet
+EndChar
+
+StartChar: SF040000
+Encoding: 9496 9496 626
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 12 m 29
+ 6 12 l 29
+ 6 26 l 25
+ 8 26 l 25
+ 8 10 l 29
+ 0 10 l 29
+ 0 12 l 29
+EndSplineSet
+EndChar
+
+StartChar: SF080000
+Encoding: 9500 9500 627
+Width: 16
+HStem: 10 2<8 16>
+VStem: 6 2<-6 10 12 26>
+LayerCount: 2
+Fore
+SplineSet
+6 26 m 25
+ 8 26 l 25
+ 8 12 l 29
+ 16 12 l 29
+ 16 10 l 29
+ 8 10 l 29
+ 8 -6 l 25
+ 6 -6 l 25
+ 6 26 l 25
+EndSplineSet
+EndChar
+
+StartChar: SF090000
+Encoding: 9508 9508 628
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 12 m 25
+ 6 12 l 25
+ 6 26 l 25
+ 8 26 l 25
+ 8 -6 l 1
+ 6 -6 l 29
+ 6 10 l 1
+ 0 10 l 25
+ 0 12 l 25
+EndSplineSet
+EndChar
+
+StartChar: SF060000
+Encoding: 9516 9516 629
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 12 m 29
+ 16 12 l 25
+ 16 10 l 25
+ 8 10 l 25
+ 8 -6 l 25
+ 6 -6 l 25
+ 6 10 l 25
+ 0 10 l 25
+ 0 12 l 29
+EndSplineSet
+EndChar
+
+StartChar: SF070000
+Encoding: 9524 9524 630
+Width: 16
+HStem: 10 2<0 6 8 16>
+VStem: 6 2<12 26>
+LayerCount: 2
+Fore
+SplineSet
+0 12 m 29
+ 6 12 l 25
+ 6 26 l 25
+ 8 26 l 25
+ 8 12 l 25
+ 16 12 l 25
+ 16 10 l 25
+ 0 10 l 25
+ 0 12 l 29
+EndSplineSet
+EndChar
+
+StartChar: SF050000
+Encoding: 9532 9532 631
+Width: 16
+Flags: HO
+LayerCount: 2
+Fore
+SplineSet
+0 12 m 29
+ 6 12 l 25
+ 6 26 l 25
+ 8 26 l 25
+ 8 12 l 25
+ 16 12 l 25
+ 16 10 l 25
+ 8 10 l 25
+ 8 -6 l 25
+ 6 -6 l 25
+ 6 10 l 25
+ 0 10 l 25
+ 0 12 l 29
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
