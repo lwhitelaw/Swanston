@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683326973
+ModificationTime: 1683328979
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,11 +56,17 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9568 32 8
+WinInfo: 9728 32 8
 BeginPrivate: 1
 BlueValues 17 [0 0 14 14 20 20]
 EndPrivate
 Grid
+12 4 m 25
+ 14 4 l 25
+ 14 6 l 1049
+12 18 m 25
+ 14 18 l 25
+ 14 16 l 1049
 0 20 m 25
  16 20 l 1049
 0 14 m 25
@@ -68,7 +74,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 684
+BeginChars: 65536 695
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -14546,7 +14552,7 @@ EndChar
 StartChar: openbullet
 Encoding: 9702 9702 683
 Width: 16
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -14564,6 +14570,375 @@ SplineSet
  4 8 l 5
  4 10 l 1
  6 12 l 1
+EndSplineSet
+EndChar
+
+StartChar: smileface
+Encoding: 9786 9786 684
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 6 m 5
+ 0 16 l 5
+ 2 18 l 5
+ 12 18 l 5
+ 14 16 l 5
+ 14 6 l 5
+ 12 4 l 5
+ 2 4 l 5
+ 0 6 l 5
+12 16 m 5
+ 2 16 l 5
+ 2 6 l 5
+ 6 6 l 5
+ 4 8 l 5
+ 4 10 l 5
+ 10 10 l 5
+ 10 8 l 5
+ 8 6 l 5
+ 12 6 l 5
+ 12 16 l 5
+4 14 m 5
+ 6 14 l 5
+ 6 12 l 5
+ 4 12 l 5
+ 4 14 l 5
+8 14 m 5
+ 10 14 l 5
+ 10 12 l 5
+ 8 12 l 5
+ 8 14 l 5
+EndSplineSet
+EndChar
+
+StartChar: invsmileface
+Encoding: 9787 9787 685
+Width: 16
+Flags: W
+HStem: 4 2<6 8> 10 2<4 6 8 10> 14 4<4 6 8 10>
+VStem: 0 4<8 10 12 14> 10 4<8 10 12 14>
+LayerCount: 2
+Fore
+SplineSet
+10 10 m 25
+ 4 10 l 25
+ 4 8 l 25
+ 6 6 l 25
+ 8 6 l 25
+ 10 8 l 25
+ 10 10 l 25
+10 14 m 25
+ 8 14 l 25
+ 8 12 l 25
+ 10 12 l 25
+ 10 14 l 25
+0 6 m 1
+ 0 16 l 1
+ 2 18 l 1
+ 12 18 l 1
+ 14 16 l 1
+ 14 6 l 1
+ 12 4 l 1
+ 2 4 l 1
+ 0 6 l 1
+6 12 m 1
+ 6 14 l 1
+ 4 14 l 1
+ 4 12 l 1
+ 6 12 l 1
+EndSplineSet
+EndChar
+
+StartChar: sun
+Encoding: 9788 9788 686
+Width: 16
+Flags: HM
+HStem: 6 2<4 6 8 10> 10 2<0 2 12 14> 14 2<4 6 8 10>
+VStem: 2 2<8 10 12 14> 6 2<4 6 16 18> 10 2<8 10 12 14>
+CounterMasks: 1 fc
+LayerCount: 2
+Fore
+SplineSet
+10 14 m 25
+ 4 14 l 25
+ 4 8 l 25
+ 10 8 l 25
+ 10 14 l 25
+0 12 m 1
+ 2 12 l 1
+ 2 15 l 1
+ 0 17 l 1
+ 0 18 l 1
+ 1 18 l 1
+ 3 16 l 1
+ 6 16 l 1
+ 6 18 l 1
+ 8 18 l 1
+ 8 16 l 1
+ 11 16 l 1
+ 13 18 l 25
+ 14 18 l 25
+ 14 17 l 1
+ 12 15 l 1
+ 12 12 l 1
+ 14 12 l 1
+ 14 10 l 1
+ 12 10 l 1
+ 12 7 l 1
+ 14 5 l 1
+ 14 4 l 1
+ 13 4 l 1
+ 11 6 l 1
+ 8 6 l 1
+ 8 4 l 1
+ 6 4 l 1
+ 6 6 l 1
+ 3 6 l 1
+ 1 4 l 1
+ 0 4 l 1
+ 0 5 l 1
+ 2 7 l 1
+ 2 10 l 1
+ 0 10 l 1
+ 0 12 l 1
+EndSplineSet
+EndChar
+
+StartChar: female
+Encoding: 9792 9792 687
+Width: 16
+Flags: H
+HStem: 6 2<4 6 8 10>
+VStem: 6 2<4 6 8 10>
+LayerCount: 2
+Fore
+SplineSet
+10 16 m 29
+ 4 16 l 25
+ 4 12 l 25
+ 10 12 l 25
+ 10 16 l 29
+6 4 m 1
+ 6 6 l 25
+ 4 6 l 25
+ 4 8 l 25
+ 6 8 l 25
+ 6 10 l 25
+ 4 10 l 25
+ 2 12 l 25
+ 2 16 l 25
+ 4 18 l 1
+ 10 18 l 1
+ 12 16 l 1
+ 12 12 l 1
+ 10 10 l 1
+ 8 10 l 1
+ 8 8 l 1
+ 10 8 l 1
+ 10 6 l 1
+ 8 6 l 1
+ 8 4 l 1
+ 6 4 l 1
+EndSplineSet
+EndChar
+
+StartChar: male
+Encoding: 9794 9794 688
+Width: 16
+Flags: H
+HStem: 4 2<2 6> 10 2<2 6> 16 2<6 11>
+VStem: 0 2<6 10> 6 2<6 10> 12 2<10 15>
+CounterMasks: 1 fc
+LayerCount: 2
+Fore
+SplineSet
+6 10 m 25
+ 2 10 l 25
+ 2 6 l 25
+ 6 6 l 25
+ 6 10 l 25
+0 10 m 1
+ 2 12 l 1
+ 7 12 l 1
+ 11 16 l 1
+ 6 16 l 1
+ 6 18 l 1
+ 14 18 l 1
+ 14 10 l 1
+ 12 10 l 1
+ 12 15 l 1
+ 8 11 l 1
+ 8 6 l 1
+ 6 4 l 5
+ 2 4 l 1
+ 0 6 l 1
+ 0 10 l 1
+EndSplineSet
+EndChar
+
+StartChar: spade
+Encoding: 9824 9824 689
+Width: 16
+HStem: 4 2<4 6 8 10>
+VStem: 6 2<6 8>
+LayerCount: 2
+Fore
+SplineSet
+4 4 m 29
+ 4 6 l 29
+ 6 6 l 5
+ 6 8 l 5
+ 2 8 l 5
+ 0 10 l 5
+ 0 12 l 5
+ 7 18 l 29
+ 14 12 l 29
+ 14 10 l 5
+ 12 8 l 5
+ 8 8 l 5
+ 8 6 l 5
+ 10 6 l 29
+ 10 4 l 29
+ 4 4 l 29
+EndSplineSet
+EndChar
+
+StartChar: club
+Encoding: 9827 9827 690
+Width: 16
+Flags: MW
+HStem: 4 2<4 6 8 10> 10 2<5 6 8 9>
+VStem: 6 2<6 10 12 13>
+LayerCount: 2
+Fore
+SplineSet
+4 4 m 25
+ 4 6 l 25
+ 6 6 l 1
+ 6 10 l 1
+ 5 10 l 1
+ 3 8 l 1
+ 2 8 l 1
+ 0 10 l 1
+ 0 12 l 1
+ 2 14 l 1
+ 3 14 l 1
+ 5 12 l 1
+ 6 12 l 1
+ 6 13 l 1
+ 4 15 l 1
+ 4 16 l 1
+ 6 18 l 1
+ 8 18 l 1
+ 10 16 l 1
+ 10 15 l 1
+ 8 13 l 1
+ 8 12 l 1
+ 9 12 l 1
+ 11 14 l 1
+ 12 14 l 1
+ 14 12 l 1
+ 14 10 l 1
+ 12 8 l 1
+ 11 8 l 1
+ 9 10 l 1
+ 8 10 l 1
+ 8 6 l 1
+ 10 6 l 25
+ 10 4 l 25
+ 4 4 l 25
+EndSplineSet
+EndChar
+
+StartChar: heart
+Encoding: 9829 9829 691
+Width: 16
+LayerCount: 2
+Fore
+SplineSet
+7 4 m 1
+ 0 10 l 1
+ 0 15 l 5
+ 3 18 l 1
+ 5 18 l 1
+ 7 16 l 1
+ 9 18 l 1
+ 11 18 l 1
+ 14 15 l 1
+ 14 10 l 1
+ 7 4 l 1
+EndSplineSet
+EndChar
+
+StartChar: diamond
+Encoding: 9830 9830 692
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 11 m 29
+ 7 18 l 25
+ 14 11 l 25
+ 7 4 l 25
+ 0 11 l 29
+EndSplineSet
+EndChar
+
+StartChar: musicalnote
+Encoding: 9834 9834 693
+Width: 16
+Flags: HM
+VStem: 6 2<8 16>
+LayerCount: 2
+Fore
+SplineSet
+0 3 m 1
+ 0 5 l 1
+ 3 8 l 1
+ 6 8 l 1
+ 6 22 l 1
+ 9 22 l 1
+ 14 17 l 1
+ 14 14 l 1
+ 12 14 l 1
+ 12 16 l 1
+ 8 16 l 1
+ 8 3 l 5
+ 5 0 l 1
+ 3 0 l 1
+ 0 3 l 1
+EndSplineSet
+EndChar
+
+StartChar: musicalnotedbl
+Encoding: 9835 9835 694
+Width: 16
+Flags: MO
+HStem: 18 4<6 12>
+VStem: 4 2<6 18> 12 2<6 18>
+LayerCount: 2
+Fore
+SplineSet
+0 4 m 1
+ 2 6 l 1
+ 4 6 l 1
+ 4 22 l 1
+ 14 22 l 1
+ 14 0 l 1
+ 10 0 l 25
+ 8 2 l 1
+ 8 4 l 1
+ 10 6 l 1
+ 12 6 l 5
+ 12 18 l 1
+ 6 18 l 1
+ 6 0 l 1
+ 2 0 l 1
+ 0 2 l 1
+ 0 4 l 1
 EndSplineSet
 EndChar
 EndChars
