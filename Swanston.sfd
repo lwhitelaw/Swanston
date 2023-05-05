@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683329149
+ModificationTime: 1683329429
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 64224 32 8
+WinInfo: 0 32 8
 BeginPrivate: 1
 BlueValues 17 [0 0 14 14 20 20]
 EndPrivate
@@ -68,7 +68,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 697
+BeginChars: 65536 695
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -5096,7 +5096,6 @@ LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 0 0 2
 Refer: 22 67 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: ccedilla
@@ -5109,7 +5108,6 @@ LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 0 0 2
 Refer: 65 99 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni0328
@@ -5142,7 +5140,6 @@ LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 5 0 2
 Refer: 20 65 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: aogonek
@@ -5155,7 +5152,6 @@ LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 0 0 2
 Refer: 63 97 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Eogonek
@@ -5168,7 +5164,6 @@ LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 6 0 2
 Refer: 36 69 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: eogonek
@@ -5181,7 +5176,6 @@ LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 0 0 2
 Refer: 67 101 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Iogonek
@@ -5194,7 +5188,6 @@ LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 -1 0 2
 Refer: 40 73 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: iogonek
@@ -5207,7 +5200,6 @@ LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 -1 0.2 2
 Refer: 71 105 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uogonek
@@ -5220,7 +5212,6 @@ LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 0 0 2
 Refer: 83 117 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Uogonek
@@ -5233,7 +5224,6 @@ LayerCount: 2
 Fore
 Refer: 283 808 N 1 0 0 1 0 0 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: Scedilla
@@ -5246,7 +5236,6 @@ LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 0 0 2
 Refer: 50 83 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: scedilla
@@ -5259,7 +5248,6 @@ LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 0 0 2
 Refer: 81 115 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni0162
@@ -5272,7 +5260,6 @@ LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 -1 0 2
 Refer: 51 84 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: uni0163
@@ -5285,7 +5272,6 @@ LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 1 0 2
 Refer: 82 116 N 1 0 0 1 0 0 3
-Validated: 5
 EndChar
 
 StartChar: registered
@@ -14465,6 +14451,7 @@ SplineSet
  4 12 l 5
  4 8 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: H18533
@@ -14484,6 +14471,7 @@ SplineSet
  6 6 l 5
  4 8 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: invbullet
@@ -14508,6 +14496,7 @@ SplineSet
  4 12 l 5
  4 8 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: invcircle
@@ -14541,6 +14530,7 @@ SplineSet
  0 -6 l 25
  0 26 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: openbullet
@@ -14565,6 +14555,7 @@ SplineSet
  4 10 l 1
  6 12 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: smileface
@@ -14605,6 +14596,7 @@ SplineSet
  8 12 l 5
  8 14 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: invsmileface
@@ -14643,6 +14635,7 @@ SplineSet
  4 12 l 1
  6 12 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: sun
@@ -14698,6 +14691,7 @@ SplineSet
  0 10 l 1
  0 12 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: female
@@ -14736,6 +14730,7 @@ SplineSet
  8 4 l 1
  6 4 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: male
@@ -14770,6 +14765,7 @@ SplineSet
  0 6 l 1
  0 10 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: spade
@@ -14797,6 +14793,7 @@ SplineSet
  10 4 l 29
  4 4 l 29
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: club
@@ -14844,6 +14841,7 @@ SplineSet
  10 4 l 25
  4 4 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: heart
@@ -14864,6 +14862,7 @@ SplineSet
  14 10 l 1
  7 4 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: diamond
@@ -14879,6 +14878,7 @@ SplineSet
  7 4 l 25
  0 11 l 29
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: musicalnote
@@ -14905,6 +14905,7 @@ SplineSet
  3 0 l 1
  0 3 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: musicalnotedbl
@@ -14934,26 +14935,7 @@ SplineSet
  0 2 l 1
  0 4 l 1
 EndSplineSet
-EndChar
-
-StartChar: uniFB01
-Encoding: 64257 64257 695
-Width: 32
-Flags: HO
-LayerCount: 2
-Fore
-Refer: 71 105 N 1 0 0 1 16 0 2
-Refer: 68 102 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: uniFB02
-Encoding: 64258 64258 696
-Width: 32
-Flags: H
-LayerCount: 2
-Fore
-Refer: 74 108 N 1 0 0 1 16 0 2
-Refer: 68 102 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
