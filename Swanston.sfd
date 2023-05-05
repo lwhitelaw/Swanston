@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683255201
+ModificationTime: 1683255389
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9472 32 8
+WinInfo: 9568 32 8
 BeginPrivate: 1
 BlueValues 17 [0 0 14 14 20 20]
 EndPrivate
@@ -68,7 +68,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 678
+BeginChars: 65536 679
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -13785,11 +13785,11 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-14 -4 m 25
- 16 -4 l 25
+14 -4 m 29
+ 16 -4 l 29
  16 -6 l 25
  14 -6 l 25
- 14 -4 l 25
+ 14 -4 l 29
 10 -4 m 25
  12 -4 l 25
  12 -6 l 25
@@ -13946,8 +13946,8 @@ SplineSet
  2 22 l 25
  2 24 l 25
 12 -2 m 25
- 14 -2 l 25
- 14 -4 l 25
+ 14 -2 l 29
+ 14 -4 l 29
  12 -4 l 25
  12 -2 l 25
 8 -2 m 25
@@ -14420,6 +14420,21 @@ SplineSet
  2 10 l 29
  14 18 l 29
  14 2 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: lozenge
+Encoding: 9674 9674 678
+Width: 16
+LayerCount: 2
+Fore
+SplineSet
+2 10 m 5
+ 8 16 l 5
+ 14 10 l 5
+ 8 4 l 5
+ 2 10 l 5
 EndSplineSet
 Validated: 1
 EndChar
