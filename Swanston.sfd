@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683328979
+ModificationTime: 1683329149
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,17 +56,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9728 32 8
+WinInfo: 64224 32 8
 BeginPrivate: 1
 BlueValues 17 [0 0 14 14 20 20]
 EndPrivate
 Grid
-12 4 m 25
- 14 4 l 25
- 14 6 l 1049
-12 18 m 25
- 14 18 l 25
- 14 16 l 1049
 0 20 m 25
  16 20 l 1049
 0 14 m 25
@@ -74,7 +68,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 695
+BeginChars: 65536 697
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -14916,7 +14910,7 @@ EndChar
 StartChar: musicalnotedbl
 Encoding: 9835 9835 694
 Width: 16
-Flags: MO
+Flags: M
 HStem: 18 4<6 12>
 VStem: 4 2<6 18> 12 2<6 18>
 LayerCount: 2
@@ -14940,6 +14934,26 @@ SplineSet
  0 2 l 1
  0 4 l 1
 EndSplineSet
+EndChar
+
+StartChar: uniFB01
+Encoding: 64257 64257 695
+Width: 32
+Flags: HO
+LayerCount: 2
+Fore
+Refer: 71 105 N 1 0 0 1 16 0 2
+Refer: 68 102 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniFB02
+Encoding: 64258 64258 696
+Width: 32
+Flags: H
+LayerCount: 2
+Fore
+Refer: 74 108 N 1 0 0 1 16 0 2
+Refer: 68 102 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
