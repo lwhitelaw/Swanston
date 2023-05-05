@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683255389
+ModificationTime: 1683326973
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -68,7 +68,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom"""  "top""" 
-BeginChars: 65536 679
+BeginChars: 65536 684
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -14437,6 +14437,134 @@ SplineSet
  2 10 l 5
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: circle
+Encoding: 9675 9675 679
+Width: 16
+Flags: HM
+LayerCount: 2
+Fore
+SplineSet
+2 13 m 5
+ 5 16 l 5
+ 11 16 l 5
+ 14 13 l 5
+ 14 7 l 5
+ 11 4 l 5
+ 5 4 l 5
+ 2 7 l 5
+ 2 13 l 5
+4 8 m 5
+ 6 6 l 5
+ 10 6 l 5
+ 12 8 l 5
+ 12 12 l 5
+ 10 14 l 5
+ 6 14 l 5
+ 4 12 l 5
+ 4 8 l 5
+EndSplineSet
+EndChar
+
+StartChar: H18533
+Encoding: 9679 9679 680
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+4 8 m 5
+ 4 12 l 5
+ 6 14 l 5
+ 10 14 l 5
+ 12 12 l 5
+ 12 8 l 5
+ 10 6 l 5
+ 6 6 l 5
+ 4 8 l 5
+EndSplineSet
+EndChar
+
+StartChar: invbullet
+Encoding: 9688 9688 681
+Width: 16
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+0 26 m 25
+ 16 26 l 25
+ 16 -6 l 25
+ 0 -6 l 25
+ 0 26 l 25
+4 8 m 5
+ 6 6 l 5
+ 10 6 l 5
+ 12 8 l 5
+ 12 12 l 5
+ 10 14 l 5
+ 6 14 l 5
+ 4 12 l 5
+ 4 8 l 5
+EndSplineSet
+EndChar
+
+StartChar: invcircle
+Encoding: 9689 9689 682
+Width: 16
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+2 13 m 5
+ 2 7 l 5
+ 5 4 l 5
+ 11 4 l 5
+ 14 7 l 5
+ 14 13 l 5
+ 11 16 l 5
+ 5 16 l 5
+ 2 13 l 5
+4 8 m 5
+ 4 12 l 5
+ 6 14 l 5
+ 10 14 l 5
+ 12 12 l 5
+ 12 8 l 5
+ 10 6 l 5
+ 6 6 l 5
+ 4 8 l 5
+0 26 m 25
+ 16 26 l 25
+ 16 -6 l 25
+ 0 -6 l 25
+ 0 26 l 25
+EndSplineSet
+EndChar
+
+StartChar: openbullet
+Encoding: 9702 9702 683
+Width: 16
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+8 10 m 25
+ 6 10 l 25
+ 6 8 l 25
+ 8 8 l 25
+ 8 10 l 25
+6 12 m 1
+ 8 12 l 1
+ 10 10 l 1
+ 10 8 l 1
+ 8 6 l 1
+ 6 6 l 1
+ 4 8 l 5
+ 4 10 l 1
+ 6 12 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
