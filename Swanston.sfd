@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683390855
+ModificationTime: 1683420408
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -45,7 +45,6 @@ HheadDOffset: 1
 OS2CapHeight: 20
 OS2XHeight: 14
 OS2Vendor: 'PfEd'
-OS2CodePages: 00000011.00000000
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
