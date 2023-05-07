@@ -1,8 +1,8 @@
 SplineFontDB: 3.2
-FontName: Swanston
-FullName: Swanston
+FontName: Swanston-Bold
+FullName: Swanston Bold
 FamilyName: Swanston
-Weight: Regular
+Weight: Bold
 Copyright: Copyright (c) 2023 Liam Whitelaw
 UComments: "2023-4-7: Created with FontForge (http://fontforge.org)"
 Version: 001.000
@@ -16,15 +16,15 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 819 1899051707 1393]
-StyleMap: 0x0000
+StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683420408
+ModificationTime: 1683427408
 PfmFamily: 49
-TTFWeight: 400
+TTFWeight: 700
 TTFWidth: 5
 LineGap: 2
 VLineGap: 0
@@ -55,7 +55,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 32 8
+WinInfo: 64 32 8
 BeginPrivate: 5
 BlueValues 17 [0 0 14 14 20 20]
 StdHW 3 [2]
