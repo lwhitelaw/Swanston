@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683569707
+ModificationTime: 1683586337
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -55,13 +55,13 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9472 32 8
+WinInfo: 0 32 8
 BeginPrivate: 5
-BlueValues 17 [0 0 28 28 40 40]
-StdHW 3 [4]
-StdVW 3 [8]
-StemSnapH 5 [4 8]
-StemSnapV 5 [4 8]
+BlueValues 2 []
+StdHW 3 [6]
+StdVW 4 [10]
+StemSnapH 5 [4 6]
+StemSnapV 8 [4 6 10]
 EndPrivate
 Grid
 0 40 m 25
@@ -12637,8 +12637,9 @@ EndChar
 StartChar: arrowleft
 Encoding: 8592 8592 593
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 12<10 28>
+DStem2: 14 36 10 28 0.707107 0.707107<-8.48528 0> 10 16 14 8 0.707107 -0.707107<0 8.48528>
 LayerCount: 2
 Fore
 SplineSet
@@ -12659,8 +12660,9 @@ EndChar
 StartChar: arrowright
 Encoding: 8594 8594 594
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 12<0 18>
+DStem2: 14 36 10 36 0.707107 -0.707107<0 8.48528> 10 8 14 8 0.707107 0.707107<2.82843 11.3137>
 LayerCount: 2
 Fore
 SplineSet
@@ -12703,9 +12705,10 @@ EndChar
 StartChar: arrowdown
 Encoding: 8595 8595 596
 Width: 32
-Flags: HW
-HStem: 0 40G<8 20>
+Flags: W
+HStem: 20 20G<8 20>
 VStem: 8 12<14 40>
+DStem2: 0 22 0 18 0.707107 -0.707107<2.82843 11.3137> 20 14 28 18 0.707107 0.707107<0 8.48528>
 LayerCount: 2
 Fore
 SplineSet
@@ -12726,7 +12729,7 @@ EndChar
 StartChar: arrowboth
 Encoding: 8596 8596 597
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 12<8 24>
 LayerCount: 2
 Fore
@@ -13291,7 +13294,7 @@ EndChar
 StartChar: SF100000
 Encoding: 9472 9472 621
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 32>
 LayerCount: 2
 Fore
@@ -13308,7 +13311,7 @@ EndChar
 StartChar: SF110000
 Encoding: 9474 9474 622
 Width: 32
-Flags: HW
+Flags: W
 VStem: 12 4<-12 52>
 LayerCount: 2
 Fore
@@ -13325,7 +13328,7 @@ EndChar
 StartChar: SF010000
 Encoding: 9484 9484 623
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<16 32>
 VStem: 12 4<-12 20>
 LayerCount: 2
@@ -13345,7 +13348,7 @@ EndChar
 StartChar: SF030000
 Encoding: 9488 9488 624
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 12>
 VStem: 12 4<-12 20>
 LayerCount: 2
@@ -13365,7 +13368,7 @@ EndChar
 StartChar: SF020000
 Encoding: 9492 9492 625
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<16 32>
 VStem: 12 4<24 52>
 LayerCount: 2
@@ -13385,7 +13388,7 @@ EndChar
 StartChar: SF040000
 Encoding: 9496 9496 626
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 12>
 VStem: 12 4<24 52>
 LayerCount: 2
@@ -13405,7 +13408,7 @@ EndChar
 StartChar: SF080000
 Encoding: 9500 9500 627
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<16 32>
 VStem: 12 4<-12 20 24 52>
 LayerCount: 2
@@ -13427,7 +13430,7 @@ EndChar
 StartChar: SF090000
 Encoding: 9508 9508 628
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 12>
 VStem: 12 4<-12 20 24 52>
 LayerCount: 2
@@ -13449,7 +13452,7 @@ EndChar
 StartChar: SF060000
 Encoding: 9516 9516 629
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 12 16 32>
 VStem: 12 4<-12 20>
 LayerCount: 2
@@ -13471,7 +13474,7 @@ EndChar
 StartChar: SF070000
 Encoding: 9524 9524 630
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 12 16 32>
 VStem: 12 4<24 52>
 LayerCount: 2
@@ -13493,7 +13496,7 @@ EndChar
 StartChar: SF050000
 Encoding: 9532 9532 631
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 12 16 32>
 VStem: 12 4<-12 20 24 52>
 LayerCount: 2
@@ -13519,7 +13522,7 @@ EndChar
 StartChar: SF430000
 Encoding: 9552 9552 632
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<0 32> 24 4<0 32>
 LayerCount: 2
 Fore
@@ -13541,7 +13544,7 @@ EndChar
 StartChar: SF240000
 Encoding: 9553 9553 633
 Width: 32
-Flags: HW
+Flags: W
 VStem: 8 4<-12 52> 16 4<-12 52>
 LayerCount: 2
 Fore
@@ -13563,7 +13566,7 @@ EndChar
 StartChar: SF510000
 Encoding: 9554 9554 634
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<16 32> 24 4<16 32>
 VStem: 12 4<-12 16 20 24>
 LayerCount: 2
@@ -13587,7 +13590,7 @@ EndChar
 StartChar: SF520000
 Encoding: 9555 9555 635
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<12 16 20 32>
 VStem: 8 4<-12 20> 16 4<-12 20>
 LayerCount: 2
@@ -13611,7 +13614,7 @@ EndChar
 StartChar: SF390000
 Encoding: 9556 9556 636
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<20 32> 24 4<12 32>
 VStem: 8 4<-12 24> 16 4<-12 16>
 LayerCount: 2
@@ -13638,7 +13641,7 @@ EndChar
 StartChar: SF220000
 Encoding: 9557 9557 637
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<0 12> 24 4<0 12>
 VStem: 12 4<-12 16 20 24>
 LayerCount: 2
@@ -13662,7 +13665,7 @@ EndChar
 StartChar: SF210000
 Encoding: 9558 9558 638
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 8 12 16>
 VStem: 8 4<-12 20> 16 4<-12 20>
 LayerCount: 2
@@ -13686,7 +13689,7 @@ EndChar
 StartChar: SF250000
 Encoding: 9559 9559 639
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<0 8> 24 4<0 16>
 VStem: 8 4<-12 16> 16 4<-12 24>
 LayerCount: 2
@@ -13713,7 +13716,7 @@ EndChar
 StartChar: SF500000
 Encoding: 9560 9560 640
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<16 32> 24 4<16 32>
 VStem: 12 4<20 24 28 52>
 LayerCount: 2
@@ -13737,7 +13740,7 @@ EndChar
 StartChar: SF490000
 Encoding: 9561 9561 641
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<12 16 20 32>
 VStem: 8 4<24 52> 16 4<24 52>
 LayerCount: 2
@@ -13761,7 +13764,7 @@ EndChar
 StartChar: SF380000
 Encoding: 9562 9562 642
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<12 32> 24 4<20 32>
 VStem: 8 4<20 52> 16 4<28 52>
 LayerCount: 2
@@ -13788,7 +13791,7 @@ EndChar
 StartChar: SF280000
 Encoding: 9563 9563 643
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<0 12> 24 4<0 12>
 VStem: 12 4<20 24 28 52>
 LayerCount: 2
@@ -13812,7 +13815,7 @@ EndChar
 StartChar: SF270000
 Encoding: 9564 9564 644
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 8 12 16>
 VStem: 8 4<24 52> 16 4<24 52>
 LayerCount: 2
@@ -13836,7 +13839,7 @@ EndChar
 StartChar: SF260000
 Encoding: 9565 9565 645
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<0 16> 24 4<0 8>
 VStem: 8 4<28 52> 16 4<20 52>
 LayerCount: 2
@@ -13863,7 +13866,7 @@ EndChar
 StartChar: SF360000
 Encoding: 9566 9566 646
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<16 32> 24 4<16 32>
 VStem: 12 4<-12 16 20 24 28 52>
 LayerCount: 2
@@ -13889,7 +13892,7 @@ EndChar
 StartChar: SF370000
 Encoding: 9567 9567 647
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<20 32>
 VStem: 8 4<-12 52> 16 4<-12 20 24 52>
 LayerCount: 2
@@ -13916,7 +13919,7 @@ EndChar
 StartChar: SF420000
 Encoding: 9568 9568 648
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<20 32> 24 4<20 32>
 VStem: 8 4<-12 52> 16 4<-12 16 28 52>
 LayerCount: 2
@@ -13948,7 +13951,7 @@ EndChar
 StartChar: SF190000
 Encoding: 9569 9569 649
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<0 12> 24 4<0 12>
 VStem: 12 4<-12 16 20 24 28 52>
 LayerCount: 2
@@ -14060,7 +14063,7 @@ EndChar
 StartChar: SF480000
 Encoding: 9573 9573 653
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 8 12 16 20 32>
 VStem: 8 4<-12 20> 16 4<-12 20>
 LayerCount: 2
@@ -14118,7 +14121,7 @@ EndChar
 StartChar: SF450000
 Encoding: 9575 9575 655
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<0 32> 24 4<0 12 16 32>
 VStem: 12 4<28 52>
 LayerCount: 2
@@ -14145,7 +14148,7 @@ EndChar
 StartChar: SF460000
 Encoding: 9576 9576 656
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 8 12 16 20 32>
 VStem: 8 4<24 52> 16 4<24 52>
 LayerCount: 2
@@ -14171,7 +14174,7 @@ EndChar
 StartChar: SF400000
 Encoding: 9577 9577 657
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<0 32> 24 4<0 8 20 32>
 VStem: 8 4<28 52> 16 4<28 52>
 LayerCount: 2
@@ -14203,7 +14206,7 @@ EndChar
 StartChar: SF540000
 Encoding: 9578 9578 658
 Width: 32
-Flags: HW
+Flags: W
 HStem: 16 4<0 12 16 32> 24 4<0 12 16 32>
 VStem: 12 4<-12 16 20 24 28 52>
 LayerCount: 2
@@ -14237,7 +14240,7 @@ EndChar
 StartChar: SF530000
 Encoding: 9579 9579 659
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 4<0 8 12 16 20 32>
 VStem: 8 4<-12 20 24 52> 16 4<-12 20 24 52>
 LayerCount: 2
@@ -14312,7 +14315,7 @@ EndChar
 StartChar: upblock
 Encoding: 9600 9600 661
 Width: 32
-Flags: HW
+Flags: W
 HStem: 20 32<0 32>
 VStem: 0 32<20 52>
 LayerCount: 2
@@ -14330,7 +14333,7 @@ EndChar
 StartChar: dnblock
 Encoding: 9604 9604 662
 Width: 32
-Flags: HW
+Flags: W
 HStem: -12 32<0 32>
 VStem: 0 32<-12 20>
 LayerCount: 2
@@ -14348,7 +14351,7 @@ EndChar
 StartChar: block
 Encoding: 9608 9608 663
 Width: 32
-Flags: HW
+Flags: W
 VStem: 0 32<-12 52>
 LayerCount: 2
 Fore
@@ -14365,7 +14368,7 @@ EndChar
 StartChar: lfblock
 Encoding: 9612 9612 664
 Width: 32
-Flags: HW
+Flags: W
 VStem: 0 16<-12 52>
 LayerCount: 2
 Fore
@@ -14382,7 +14385,7 @@ EndChar
 StartChar: rtblock
 Encoding: 9616 9616 665
 Width: 32
-Flags: HW
+Flags: W
 VStem: 16 16<-12 52>
 LayerCount: 2
 Fore
@@ -14399,7 +14402,7 @@ EndChar
 StartChar: ltshade
 Encoding: 9617 9617 666
 Width: 32
-Flags: HW
+Flags: W
 HStem: -8 4<0 4 8 12 16 20 24 28> 0 4<0 4 8 12 16 20 24 28> 8 4<0 4 8 12 16 20 24 28> 16 4<0 4 8 12 16 20 24 28> 24 4<0 4 8 12 16 20 24 28> 32 4<0 4 8 12 16 20 24 28> 40 4<0 4 8 12 16 20 24 28> 48 4<0 4 8 12 16 20 24 28>
 VStem: 0 4<-8 -4 0 4 8 12 16 20 24 28 32 36 40 44 48 52> 8 4<-8 -4 0 4 8 12 16 20 24 28 32 36 40 44 48 52> 16 4<-8 -4 0 4 8 12 16 20 24 28 32 36 40 44 48 52> 24 4<-8 -4 0 4 8 12 16 20 24 28 32 36 40 44 48 52>
 LayerCount: 2
@@ -15068,7 +15071,7 @@ EndChar
 StartChar: filledbox
 Encoding: 9632 9632 669
 Width: 32
-Flags: HW
+Flags: W
 HStem: 8 20<4 24>
 VStem: 4 20<8 28>
 LayerCount: 2
@@ -15086,7 +15089,7 @@ EndChar
 StartChar: H22073
 Encoding: 9633 9633 670
 Width: 32
-Flags: HW
+Flags: W
 HStem: 8 4<8 20> 24 4<8 20>
 VStem: 4 4<12 24> 20 4<12 24>
 LayerCount: 2
@@ -15109,7 +15112,7 @@ EndChar
 StartChar: H18543
 Encoding: 9642 9642 671
 Width: 32
-Flags: HW
+Flags: W
 HStem: 12 12<8 20>
 VStem: 8 12<12 24>
 LayerCount: 2
@@ -15127,7 +15130,7 @@ EndChar
 StartChar: H18551
 Encoding: 9643 9643 672
 Width: 32
-Flags: HW
+Flags: W
 HStem: 12 4<12 16> 20 4<12 16>
 VStem: 8 4<16 20> 16 4<16 20>
 LayerCount: 2
@@ -15150,7 +15153,7 @@ EndChar
 StartChar: filledrect
 Encoding: 9644 9644 673
 Width: 32
-Flags: HW
+Flags: W
 HStem: 4 32<4 28>
 VStem: 4 24<4 36>
 LayerCount: 2
@@ -15244,7 +15247,7 @@ EndChar
 StartChar: circle
 Encoding: 9675 9675 679
 Width: 32
-Flags: HW
+Flags: W
 HStem: 8 4<12 20> 28 4<12 20>
 VStem: 4 4<16 24> 24 4<16 24>
 LayerCount: 2
@@ -15275,9 +15278,8 @@ EndChar
 StartChar: H18533
 Encoding: 9679 9679 680
 Width: 32
-Flags: HW
-HStem: 12 16<12 20>
-VStem: 8 16<16 24>
+Flags: W
+HStem: 8 20G<8 24>
 LayerCount: 2
 Fore
 SplineSet
@@ -15297,7 +15299,7 @@ EndChar
 StartChar: invbullet
 Encoding: 9688 9688 681
 Width: 32
-Flags: HW
+Flags: W
 VStem: 0 8<16 24> 24 8<16 24>
 LayerCount: 2
 Fore
@@ -15358,7 +15360,7 @@ EndChar
 StartChar: openbullet
 Encoding: 9702 9702 683
 Width: 32
-Flags: HW
+Flags: W
 HStem: 12 4<12 16> 20 4<12 16>
 VStem: 8 4<16 20> 16 4<16 20>
 LayerCount: 2
@@ -15428,9 +15430,10 @@ EndChar
 StartChar: invsmileface
 Encoding: 9787 9787 685
 Width: 32
-Flags: HW
+Flags: W
 HStem: 8 4<12 16> 20 4<8 12 16 20> 28 8<8 12 16 20>
-VStem: 0 8<16 20 24 28> 20 8<16 20 24 28>
+VStem: 0 8<16 20 24 28> 12 4<24 28> 20 8<16 20 24 28>
+CounterMasks: 1 1c
 LayerCount: 2
 Fore
 SplineSet
@@ -15562,9 +15565,10 @@ EndChar
 StartChar: male
 Encoding: 9794 9794 688
 Width: 32
-Flags: HW
+Flags: W
 HStem: 8 4<4 12> 20 4<4 12> 32 4<12 22>
 VStem: 0 4<12 20> 12 4<12 20> 24 4<20 30>
+DStem2: 14 24 16 22 0.707107 0.707107<0 11.3137>
 CounterMasks: 1 fc
 LayerCount: 2
 Fore
@@ -15597,7 +15601,7 @@ EndChar
 StartChar: spade
 Encoding: 9824 9824 689
 Width: 32
-Flags: HW
+Flags: W
 HStem: 8 4<8 12 16 20>
 VStem: 12 4<12 16>
 LayerCount: 2
@@ -15674,7 +15678,7 @@ EndChar
 StartChar: heart
 Encoding: 9829 9829 691
 Width: 32
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15696,7 +15700,7 @@ EndChar
 StartChar: diamond
 Encoding: 9830 9830 692
 Width: 32
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
