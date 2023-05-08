@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1683510674
+ModificationTime: 1683569707
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -48,7 +48,7 @@ OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
-GaspTable: 2 24 1 65535 2 0
+GaspTable: 2 24 2 65535 1 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -4731,7 +4731,7 @@ SplineSet
  9 48 l 1
  13 52 l 1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: uni030C
@@ -12124,7 +12124,7 @@ SplineSet
  6 0 l 1
  0 0 l 25
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: Euro
@@ -12371,7 +12371,7 @@ SplineSet
  16 36 l 1
  20 40 l 1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: trademark
