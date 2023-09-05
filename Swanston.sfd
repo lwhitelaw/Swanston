@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1693796552
+ModificationTime: 1693871145
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 608 32 8
+WinInfo: 256 32 8
 BeginPrivate: 5
 BlueValues 2 []
 StdHW 3 [2]
@@ -695,32 +695,33 @@ Width: 16
 Flags: W
 HStem: 0 2<4 10> 10 2<4 10> 18 2<4 10>
 VStem: 0 4<2 10 12 18> 10 4<3 9 13 17>
+AnchorPoint: "bottom" 7 -0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-10 10 m 5
- 4 10 l 5
- 4 2 l 5
- 10 2 l 5
- 10 10 l 5
-10 18 m 29
- 4 18 l 29
- 4 12 l 29
- 10 12 l 29
- 10 18 l 29
-0 20 m 5
- 11 20 l 5
- 14 17 l 5
- 14 13 l 5
- 12 11 l 5
- 14 9 l 5
- 14 3 l 5
- 11 0 l 5
- 0 0 l 5
- 0 20 l 5
+10 10 m 1
+ 4 10 l 1
+ 4 2 l 1
+ 10 2 l 1
+ 10 10 l 1
+10 18 m 25
+ 4 18 l 25
+ 4 12 l 25
+ 10 12 l 25
+ 10 18 l 25
+0 20 m 1
+ 11 20 l 1
+ 14 17 l 1
+ 14 13 l 1
+ 12 11 l 1
+ 14 9 l 1
+ 14 3 l 1
+ 11 0 l 1
+ 0 0 l 1
+ 0 20 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: C
@@ -1152,6 +1153,7 @@ Width: 16
 Flags: MW
 HStem: 10 2<4 12> 18 2<4 14>
 VStem: 0 4<0 10 12 18>
+AnchorPoint: "bottom" 2 0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
@@ -1168,7 +1170,7 @@ SplineSet
  0 0 l 1
  0 20 l 25
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: G
@@ -1211,25 +1213,26 @@ Width: 16
 Flags: MW
 HStem: 10 2<4 10>
 VStem: 0 4<0 10 12 20> 10 4<0 10 12 20>
+AnchorPoint: "bottom" 7 0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-0 20 m 29
- 4 20 l 29
- 4 12 l 29
- 10 12 l 29
- 10 20 l 29
- 14 20 l 29
- 14 0 l 29
- 10 0 l 29
- 10 10 l 29
- 4 10 l 29
- 4 0 l 29
- 0 0 l 29
- 0 20 l 29
+0 20 m 25
+ 4 20 l 25
+ 4 12 l 25
+ 10 12 l 25
+ 10 20 l 25
+ 14 20 l 25
+ 14 0 l 25
+ 10 0 l 25
+ 10 10 l 25
+ 4 10 l 25
+ 4 0 l 25
+ 0 0 l 25
+ 0 20 l 25
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: I
@@ -1290,6 +1293,7 @@ Width: 16
 Flags: MW
 HStem: 8 4
 VStem: 0 4<0 8 12 20>
+AnchorPoint: "top" 7 20 basechar 0
 AnchorPoint: "bottom" 7 0 basechar 0
 LayerCount: 2
 Fore
@@ -1307,7 +1311,7 @@ SplineSet
  0 0 l 29
  0 20 l 29
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: L
@@ -1362,23 +1366,24 @@ Encoding: 78 78 45
 Width: 16
 Flags: MW
 VStem: 0 4<0 12> 10 4<8 20>
+AnchorPoint: "bottom" 7 0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-0 20 m 29
- 4 20 l 5
- 10 8 l 29
- 10 20 l 5
- 14 20 l 29
- 14 0 l 29
- 10 0 l 5
- 4 12 l 5
- 4 0 l 5
- 0 0 l 5
- 0 20 l 29
+0 20 m 25
+ 4 20 l 1
+ 10 8 l 25
+ 10 20 l 1
+ 14 20 l 25
+ 14 0 l 25
+ 10 0 l 1
+ 4 12 l 1
+ 4 0 l 1
+ 0 0 l 1
+ 0 20 l 25
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: O
@@ -1416,6 +1421,7 @@ Width: 16
 Flags: MW
 HStem: 10 2<4 10> 18 2<4 10>
 VStem: 0 4<0 10 12 18> 10 4<13 17>
+AnchorPoint: "bottom" 2 0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
@@ -1435,7 +1441,7 @@ SplineSet
  4 0 l 25
  0 0 l 25
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Q
@@ -1479,31 +1485,32 @@ Width: 16
 Flags: MW
 HStem: 10 2<8 10> 18 2<4 10>
 VStem: 0 4<0 10 12 18> 10 4<0 3 13 17>
+AnchorPoint: "bottom" 7 0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-10 18 m 5
- 4 18 l 29
- 4 12 l 5
- 10 12 l 29
- 10 18 l 5
-0 0 m 29
- 0 20 l 5
- 11 20 l 5
- 14 17 l 5
- 14 13 l 5
- 11 10 l 5
- 8 10 l 5
- 14 3 l 5
- 14 0 l 5
- 10 0 l 5
- 10 3 l 5
- 4 10 l 5
- 4 0 l 5
- 0 0 l 29
+10 18 m 1
+ 4 18 l 25
+ 4 12 l 1
+ 10 12 l 25
+ 10 18 l 1
+0 0 m 25
+ 0 20 l 1
+ 11 20 l 1
+ 14 17 l 1
+ 14 13 l 1
+ 11 10 l 1
+ 8 10 l 1
+ 14 3 l 1
+ 14 0 l 1
+ 10 0 l 1
+ 10 3 l 1
+ 4 10 l 1
+ 4 0 l 1
+ 0 0 l 25
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: S
@@ -1616,6 +1623,7 @@ Encoding: 87 87 54
 Width: 16
 Flags: MW
 VStem: 0 4<6 20> 10 4<6 20>
+AnchorPoint: "bottom" 7 -0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
@@ -1634,7 +1642,7 @@ SplineSet
  0 0 l 25
  0 20 l 25
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: X
@@ -1666,22 +1674,23 @@ Encoding: 89 89 56
 Width: 16
 Flags: MW
 VStem: 5 4<0 8>
+AnchorPoint: "bottom" 7 0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-0 20 m 5
- 4 20 l 5
- 7 12 l 5
- 10 20 l 5
- 14 20 l 5
- 9 8 l 5
- 9 0 l 5
- 5 0 l 5
- 5 8 l 5
- 0 20 l 5
+0 20 m 1
+ 4 20 l 1
+ 7 12 l 1
+ 10 20 l 1
+ 14 20 l 1
+ 9 8 l 1
+ 9 0 l 1
+ 5 0 l 1
+ 5 8 l 1
+ 0 20 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Z
@@ -2055,6 +2064,7 @@ Width: 16
 Flags: W
 HStem: 0 2<2 4 8 10> 10 2<2 4> 16 4<4 8>
 VStem: 4 4<2 10 16 20>
+AnchorPoint: "bottom" 6 0 basechar 0
 AnchorPoint: "top" 6 14 basechar 0
 LayerCount: 2
 Fore
@@ -2085,28 +2095,29 @@ Width: 16
 Flags: MW
 HStem: -4 2<4 10> 10 2<8 10> 16 4<10 14>
 VStem: 10 4<-1 10 16 20>
+AnchorPoint: "bottom" 7 -4 basechar 0
 AnchorPoint: "top" 12 14 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-8 12 m 5
- 14 12 l 5
- 14 -1 l 5
- 11 -4 l 5
- 3 -4 l 5
- 0 -1 l 5
- 0 0 l 5
- 4 0 l 29
- 4 -2 l 29
- 10 -2 l 5
- 10 10 l 5
- 8 10 l 5
- 8 12 l 5
-10 20 m 29
- 14 20 l 29
- 14 16 l 29
- 10 16 l 29
- 10 20 l 29
+8 12 m 1
+ 14 12 l 1
+ 14 -1 l 1
+ 11 -4 l 1
+ 3 -4 l 1
+ 0 -1 l 1
+ 0 0 l 1
+ 4 0 l 25
+ 4 -2 l 25
+ 10 -2 l 1
+ 10 10 l 1
+ 8 10 l 1
+ 8 12 l 1
+10 20 m 25
+ 14 20 l 25
+ 14 16 l 25
+ 10 16 l 25
+ 10 20 l 25
 EndSplineSet
 Validated: 1048577
 EndChar
@@ -2196,20 +2207,21 @@ Width: 16
 Flags: MW
 HStem: 12 2<4 10>
 VStem: 0 4<0 12> 10 4<0 11>
+AnchorPoint: "bottom" 7 -0 basechar 0
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 29
- 0 14 l 21
- 11 14 l 5
- 14 11 l 5
- 14 0 l 5
- 10 0 l 29
- 10 12 l 21
- 4 12 l 13
- 4 0 l 5
- 0 0 l 29
+0 0 m 25
+ 0 14 l 17
+ 11 14 l 1
+ 14 11 l 1
+ 14 0 l 1
+ 10 0 l 25
+ 10 12 l 17
+ 4 12 l 9
+ 4 0 l 1
+ 0 0 l 25
 EndSplineSet
 Validated: 1048577
 EndChar
@@ -2302,19 +2314,20 @@ Encoding: 114 114 80
 Width: 16
 Flags: MW
 VStem: 0 4<0 5 10 14>
+AnchorPoint: "bottom" 2 0 basechar 0
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 29
- 0 14 l 29
- 4 14 l 29
- 4 10 l 29
- 8 14 l 5
- 13 14 l 5
- 4 5 l 5
- 4 0 l 5
- 0 0 l 29
+0 0 m 25
+ 0 14 l 25
+ 4 14 l 25
+ 4 10 l 25
+ 8 14 l 1
+ 13 14 l 1
+ 4 5 l 1
+ 4 0 l 1
+ 0 0 l 25
 EndSplineSet
 Validated: 1048577
 EndChar
@@ -2361,26 +2374,27 @@ Width: 16
 Flags: MW
 HStem: 0 2<8 12> 12 2<0 4 8 12>
 VStem: 4 4<3 12 14 20>
+AnchorPoint: "top" 6 20 basechar 0
 AnchorPoint: "bottom" 8 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-4 20 m 5
- 8 20 l 5
- 8 14 l 29
- 12 14 l 29
- 12 12 l 29
- 8 12 l 5
- 8 2 l 5
- 12 2 l 5
- 12 0 l 5
- 7 0 l 5
- 4 3 l 5
- 4 12 l 5
- 0 12 l 29
- 0 14 l 29
- 4 14 l 29
- 4 20 l 5
+4 20 m 1
+ 8 20 l 1
+ 8 14 l 25
+ 12 14 l 25
+ 12 12 l 25
+ 8 12 l 1
+ 8 2 l 1
+ 12 2 l 1
+ 12 0 l 1
+ 7 0 l 1
+ 4 3 l 1
+ 4 12 l 1
+ 0 12 l 25
+ 0 14 l 25
+ 4 14 l 25
+ 4 20 l 1
 EndSplineSet
 Validated: 1048577
 EndChar
@@ -2436,6 +2450,7 @@ Encoding: 119 119 85
 Width: 16
 Flags: MW
 VStem: 0 4<6 14> 10 4<6 14>
+AnchorPoint: "bottom" 7 0 basechar 0
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
@@ -2487,6 +2502,7 @@ Width: 16
 Flags: MW
 HStem: -4 2<2 8> 0 2<4 10>
 VStem: 0 4<3 14> 10 4<2 14>
+AnchorPoint: "bottom" 7 -4 basechar 0
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
@@ -3782,6 +3798,7 @@ Width: 16
 Flags: W
 HStem: 0 2<2 4 8 10> 10 2<2 4>
 VStem: 4 4<2 10>
+AnchorPoint: "bottom" 6 0 basechar 0
 AnchorPoint: "top" 6 14 basechar 0
 LayerCount: 2
 Fore
@@ -4705,6 +4722,7 @@ Width: 16
 Flags: MW
 HStem: -4 2<4 10> 10 2<8 10>
 VStem: 10 4<-1 10>
+AnchorPoint: "bottom" 7 -4 basechar 0
 AnchorPoint: "top" 12 14 basechar 0
 LayerCount: 2
 Fore
@@ -6051,33 +6069,34 @@ Width: 16
 Flags: W
 HStem: 0 2<10 14> 6 2<4 6> 10 2<10 14> 18 2<4 6 10 14>
 VStem: 0 4<0 6 8 17> 6 4<2 6 8 10 12 18>
+AnchorPoint: "bottom" 7 -0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-6 18 m 29
- 4 18 l 29
- 4 8 l 29
- 6 8 l 29
- 6 18 l 29
-3 20 m 5
- 14 20 l 5
- 14 18 l 5
- 10 18 l 5
- 10 12 l 5
- 14 12 l 5
- 14 10 l 5
- 10 10 l 5
- 10 2 l 5
- 14 2 l 5
- 14 0 l 5
- 6 0 l 5
- 6 6 l 5
- 4 6 l 5
- 4 0 l 5
- 0 0 l 5
- 0 17 l 5
- 3 20 l 5
+6 18 m 25
+ 4 18 l 25
+ 4 8 l 25
+ 6 8 l 25
+ 6 18 l 25
+3 20 m 1
+ 14 20 l 1
+ 14 18 l 1
+ 10 18 l 1
+ 10 12 l 1
+ 14 12 l 1
+ 14 10 l 1
+ 10 10 l 1
+ 10 2 l 1
+ 14 2 l 1
+ 14 0 l 1
+ 6 0 l 1
+ 6 6 l 1
+ 4 6 l 1
+ 4 0 l 1
+ 0 0 l 1
+ 0 17 l 1
+ 3 20 l 1
 EndSplineSet
 Validated: 1048577
 EndChar
@@ -6088,6 +6107,7 @@ Width: 16
 Flags: M
 HStem: 0 2<4 6 10 14> 4 2<10 12> 8 2<4 6> 12 2<2 6>
 VStem: 0 4<3 7> 6 4<2 4 6 8> 12 2<6 10>
+AnchorPoint: "bottom" 7 -0 basechar 0
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
@@ -6100,12 +6120,12 @@ SplineSet
 12 10 m 1
  10 10 l 1
  10 6 l 1
- 12 6 l 5
+ 12 6 l 1
  12 10 l 1
 2 14 m 1
  11 14 l 1
  14 11 l 1
- 14 4 l 5
+ 14 4 l 1
  10 4 l 1
  10 2 l 1
  14 2 l 1
@@ -6743,6 +6763,7 @@ Width: 16
 Flags: MW
 HStem: 0 2<4 6 8 10> 8 2<6 10> 18 2<4 10>
 VStem: 0 4<3 17> 10 4<3 8 14 17>
+AnchorPoint: "bottom" 7 -6 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
@@ -6782,6 +6803,7 @@ Width: 16
 Flags: MW
 HStem: -4 2<4 10> 0 20G<6 6> 2 2<4 10> 12 2<4 6 8 10>
 VStem: 0 4<-1 0 5 11> 10 4<-1 2 4 12>
+AnchorPoint: "top" 7 20 basechar 0
 AnchorPoint: "bottom" 7 -4 basechar 0
 LayerCount: 2
 Fore
@@ -6822,6 +6844,7 @@ Width: 16
 Flags: MW
 HStem: 10 2<4 10> 14 2<4 10>
 VStem: 0 4<0 10 12 14 16 20> 10 4<0 10 12 14 16 20>
+AnchorPoint: "bottom" 7 0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
@@ -7045,6 +7068,7 @@ Width: 16
 Flags: MW
 HStem: 0 2<4 6 8 14>
 VStem: 0 4<2 20>
+AnchorPoint: "bottom" 7 -6 basechar 0
 AnchorPoint: "top" 2 20 basechar 0
 LayerCount: 2
 Fore
@@ -7127,6 +7151,7 @@ Encoding: 316 316 354
 Width: 16
 Flags: MW
 VStem: 6 4<3 20>
+AnchorPoint: "bottom" 8 -6 basechar 0
 AnchorPoint: "top" 8 20 basechar 0
 LayerCount: 2
 Fore
@@ -7268,17 +7293,18 @@ Encoding: 325 325 359
 Width: 16
 Flags: MW
 VStem: 0 4<0 12> 10 4<8 20>
+AnchorPoint: "bottom" 7 -6 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-6 0 m 5
- 8 0 l 5
- 10 -3 l 5
- 8 -6 l 5
- 6 -6 l 5
- 8 -3 l 5
- 6 0 l 5
+6 0 m 1
+ 8 0 l 1
+ 10 -3 l 1
+ 8 -6 l 1
+ 6 -6 l 1
+ 8 -3 l 1
+ 6 0 l 1
 0 20 m 25
  4 20 l 1
  10 8 l 25
@@ -7300,17 +7326,18 @@ Width: 16
 Flags: MW
 HStem: 12 2<4 10>
 VStem: 0 4<0 12> 10 4<0 11>
+AnchorPoint: "bottom" 7 -6 basechar 0
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-6 0 m 5
- 8 0 l 5
- 10 -3 l 5
- 8 -6 l 5
- 6 -6 l 5
- 8 -3 l 5
- 6 0 l 5
+6 0 m 1
+ 8 0 l 1
+ 10 -3 l 1
+ 8 -6 l 1
+ 6 -6 l 1
+ 8 -3 l 1
+ 6 0 l 1
 0 0 m 25
  0 14 l 17
  11 14 l 1
@@ -7331,15 +7358,16 @@ Width: 16
 Flags: MW
 HStem: 12 2<4 10> 16 4<0 4>
 VStem: 0 4<0 12 16 20> 10 4<0 11>
+AnchorPoint: "bottom" 7 0 basechar 0
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-0 20 m 29
+0 20 m 25
  4 20 l 25
  4 16 l 25
  0 16 l 25
- 0 20 l 29
+ 0 20 l 25
 0 0 m 25
  0 14 l 17
  11 14 l 1
@@ -7360,6 +7388,7 @@ Width: 16
 Flags: MW
 HStem: 12 2<4 10>
 VStem: 0 4<0 12> 10 4<0 11>
+AnchorPoint: "bottom" 7 -4 basechar 0
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
@@ -7386,6 +7415,7 @@ Width: 16
 Flags: MW
 HStem: 18 2<4 10>
 VStem: 0 4<0 18> 10 4<0 17>
+AnchorPoint: "bottom" 7 -4 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
@@ -7412,30 +7442,31 @@ Width: 16
 Flags: W
 HStem: 0 2<4 6 10 14> 10 2<10 14> 18 2<4 6 10 14>
 VStem: 0 4<3 17> 6 4<2 10 12 18>
+AnchorPoint: "bottom" 7 0 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-6 18 m 5
- 4 18 l 5
- 4 2 l 5
- 6 2 l 5
- 6 18 l 5
-3 20 m 5
- 14 20 l 5
- 14 18 l 5
- 10 18 l 5
- 10 12 l 5
- 14 12 l 5
- 14 10 l 5
- 10 10 l 5
- 10 2 l 5
- 14 2 l 5
- 14 0 l 5
- 3 0 l 5
- 0 3 l 5
- 0 17 l 5
- 3 20 l 5
+6 18 m 1
+ 4 18 l 1
+ 4 2 l 1
+ 6 2 l 1
+ 6 18 l 1
+3 20 m 1
+ 14 20 l 1
+ 14 18 l 1
+ 10 18 l 1
+ 10 12 l 1
+ 14 12 l 1
+ 14 10 l 1
+ 10 10 l 1
+ 10 2 l 1
+ 14 2 l 1
+ 14 0 l 1
+ 3 0 l 1
+ 0 3 l 1
+ 0 17 l 1
+ 3 20 l 1
 EndSplineSet
 Validated: 1048577
 EndChar
@@ -7446,6 +7477,7 @@ Width: 16
 Flags: MW
 HStem: 0 2<4 6 10 14> 4 2<10 12> 12 2<4 6>
 VStem: 0 4<3 11> 6 4<2 4 6 10> 12 2<6 10>
+AnchorPoint: "bottom" 7 -0 basechar 0
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
@@ -7482,17 +7514,18 @@ Width: 16
 Flags: MW
 HStem: 10 2<8 10> 18 2<4 10>
 VStem: 0 4<0 10 12 18> 10 4<0 3 13 17>
+AnchorPoint: "bottom" 7 -6 basechar 0
 AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-6 0 m 5
- 8 0 l 5
- 10 -3 l 5
- 8 -6 l 5
- 6 -6 l 5
- 8 -3 l 5
- 6 0 l 5
+6 0 m 1
+ 8 0 l 1
+ 10 -3 l 1
+ 8 -6 l 1
+ 6 -6 l 1
+ 8 -3 l 1
+ 6 0 l 1
 10 18 m 1
  4 18 l 25
  4 12 l 1
@@ -7521,6 +7554,7 @@ Encoding: 343 343 367
 Width: 16
 Flags: MW
 VStem: 0 4<0 5 10 14>
+AnchorPoint: "bottom" 2 -6 basechar 0
 AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
@@ -7550,17 +7584,18 @@ Width: 16
 Flags: MW
 HStem: 0 2<8 12> 12 2<0 4 8 12>
 VStem: 4 4<3 12 14 20>
+AnchorPoint: "top" 6 20 basechar 0
 AnchorPoint: "bottom" 8 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-10 22 m 5
- 12 22 l 5
- 14 19 l 5
- 12 16 l 5
- 10 16 l 5
- 12 19 l 5
- 10 22 l 5
+10 22 m 1
+ 12 22 l 1
+ 14 19 l 1
+ 12 16 l 1
+ 10 16 l 1
+ 12 19 l 1
+ 10 22 l 1
 4 20 m 1
  8 20 l 1
  8 14 l 1
@@ -7619,6 +7654,7 @@ Width: 16
 Flags: MW
 HStem: 0 2<8 12> 8 2<2 4 8 10> 12 2<0 4 8 12>
 VStem: 4 4<3 8 10 12 14 20>
+AnchorPoint: "top" 6 20 basechar 0
 AnchorPoint: "bottom" 8 0 basechar 0
 LayerCount: 2
 Fore
