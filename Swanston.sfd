@@ -9323,7 +9323,7 @@ AnchorPoint: "top" 7 20 basechar 0
 LayerCount: 2
 Fore
 Refer: 388 915 N 1 0 0 1 0 0 2
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni041C
@@ -9538,7 +9538,7 @@ AnchorPoint: "top" 7 14 basechar 0
 LayerCount: 2
 Fore
 Refer: 350 312 N 1 0 0 1 0 0 2
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni043F
@@ -9702,7 +9702,7 @@ SplineSet
  4 0 l 25
  0 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni042F
@@ -10602,7 +10602,7 @@ SplineSet
  4 0 l 1
  0 0 l 25
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0438
@@ -10627,7 +10627,7 @@ SplineSet
  4 0 l 1
  0 0 l 25
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0419
@@ -10705,7 +10705,7 @@ SplineSet
  0 3 l 1
  0 14 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0423
@@ -10737,7 +10737,7 @@ SplineSet
  0 9 l 1
  0 20 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni045C
