@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1693878788
+ModificationTime: 1693879136
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 864 32 8
+WinInfo: 9696 32 8
 BeginPrivate: 5
 BlueValues 2 []
 StdHW 3 [2]
@@ -11967,8 +11967,6 @@ Width: 16
 Flags: W
 HStem: 0 1<4 10> 6 1<4 10> 13 1<4 10>
 VStem: 0 4<3 6 7 11> 10 4<7 11>
-AnchorPoint: "top" 7 14 basechar 0
-AnchorPoint: "bottom" 7 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11977,23 +11975,22 @@ SplineSet
  4 7 l 1
  10 7 l 1
  10 13 l 1
-3 14 m 1
- 11 14 l 1
+3 14 m 5
+ 11 14 l 5
  14 11 l 1
  14 6 l 1
  4 6 l 1
  4 1 l 1
  10 1 l 1
- 13 4 l 5
+ 13 4 l 1
  14 4 l 1
  14 3 l 1
  11 0 l 1
  3 0 l 1
  0 3 l 1
  0 11 l 1
- 3 14 l 1
+ 3 14 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: oneeighth
@@ -12736,23 +12733,24 @@ EndChar
 StartChar: house
 Encoding: 8962 8962 617
 Width: 16
-HStem: 0 20G<0 14> 0 2<2 12>
+Flags: M
+HStem: 0 2<2 12>
 VStem: 0 2<2 13> 12 2<2 13>
 LayerCount: 2
 Fore
 SplineSet
-7 17 m 1x70
+7 17 m 1
  2 13 l 1
  2 2 l 1
  12 2 l 1
  12 13 l 5
- 7 17 l 1x70
-0 0 m 25xb0
+ 7 17 l 1
+0 0 m 25
  0 14 l 1
  7 20 l 25
  14 14 l 1
  14 0 l 25
- 0 0 l 25xb0
+ 0 0 l 25
 EndSplineSet
 Validated: 1
 EndChar
