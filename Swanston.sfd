@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1693877226
+ModificationTime: 1693877643
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 192 32 8
+WinInfo: 224 32 8
 BeginPrivate: 5
 BlueValues 2 []
 StdHW 3 [2]
@@ -6765,6 +6765,7 @@ LayerCount: 2
 Fore
 Refer: 280 807 S 1 0 0 1 0 0 2
 Refer: 38 71 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni0123
@@ -6775,6 +6776,7 @@ LayerCount: 2
 Fore
 Refer: 283 808 S 1 0 0 1 0 20 2
 Refer: 69 103 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: Hbar
@@ -6922,6 +6924,7 @@ LayerCount: 2
 Fore
 Refer: 280 807 S 1 0 0 1 0 0 2
 Refer: 42 75 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni0137
@@ -6932,6 +6935,7 @@ LayerCount: 2
 Fore
 Refer: 280 807 S 1 0 0 1 0 0 2
 Refer: 73 107 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: kgreenlandic
@@ -6966,6 +6970,7 @@ LayerCount: 2
 Fore
 Refer: 280 807 S 1 0 0 1 0 0 2
 Refer: 43 76 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: Lcaron
@@ -6976,6 +6981,7 @@ LayerCount: 2
 Fore
 Refer: 266 39 S 1 0 0 1 6 0 2
 Refer: 43 76 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Ldot
@@ -6986,6 +6992,7 @@ LayerCount: 2
 Fore
 Refer: 305 183 S 1 0 0 1 2 0 2
 Refer: 43 76 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni013C
@@ -6996,6 +7003,7 @@ LayerCount: 2
 Fore
 Refer: 280 807 N 1 0 0 1 0 0 2
 Refer: 74 108 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: lcaron
@@ -7006,6 +7014,7 @@ LayerCount: 2
 Fore
 Refer: 266 39 N 1 0 0 1 6 0 2
 Refer: 74 108 S 1 0 0 1 -4 0 2
+Validated: 1
 EndChar
 
 StartChar: ldot
@@ -7016,6 +7025,7 @@ LayerCount: 2
 Fore
 Refer: 305 183 S 1 0 0 1 2 0 2
 Refer: 74 108 N 1 0 0 1 -4 0 2
+Validated: 1
 EndChar
 
 StartChar: lslash
@@ -7079,95 +7089,31 @@ EndChar
 StartChar: uni0145
 Encoding: 325 325 359
 Width: 16
-Flags: MW
-VStem: 0 4<0 12> 10 4<8 20>
-AnchorPoint: "bottom" 7 -6 basechar 0
-AnchorPoint: "top" 7 20 basechar 0
+Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-6 0 m 1
- 8 0 l 1
- 10 -3 l 1
- 8 -6 l 1
- 6 -6 l 1
- 8 -3 l 1
- 6 0 l 1
-0 20 m 25
- 4 20 l 1
- 10 8 l 25
- 10 20 l 1
- 14 20 l 25
- 14 0 l 25
- 10 0 l 1
- 4 12 l 1
- 4 0 l 1
- 0 0 l 1
- 0 20 l 25
-EndSplineSet
-Validated: 1
+Refer: 280 807 S 1 0 0 1 0 0 2
+Refer: 45 78 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0146
 Encoding: 326 326 360
 Width: 16
-Flags: MW
-HStem: 12 2<4 10>
-VStem: 0 4<0 12> 10 4<0 11>
-AnchorPoint: "bottom" 7 -6 basechar 0
-AnchorPoint: "top" 7 14 basechar 0
+Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-6 0 m 1
- 8 0 l 1
- 10 -3 l 1
- 8 -6 l 1
- 6 -6 l 1
- 8 -3 l 1
- 6 0 l 1
-0 0 m 25
- 0 14 l 17
- 11 14 l 1
- 14 11 l 1
- 14 0 l 1
- 10 0 l 25
- 10 12 l 17
- 4 12 l 9
- 4 0 l 1
- 0 0 l 25
-EndSplineSet
-Validated: 1
+Refer: 280 807 S 1 0 0 1 0 0 2
+Refer: 76 110 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: napostrophe
 Encoding: 329 329 361
 Width: 16
-Flags: MW
-HStem: 12 2<4 10> 16 4<0 4>
-VStem: 0 4<0 12 16 20> 10 4<0 11>
-AnchorPoint: "bottom" 7 0 basechar 0
-AnchorPoint: "top" 7 14 basechar 0
+Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-0 20 m 25
- 4 20 l 25
- 4 16 l 25
- 0 16 l 25
- 0 20 l 25
-0 0 m 25
- 0 14 l 17
- 11 14 l 1
- 14 11 l 1
- 14 0 l 1
- 10 0 l 25
- 10 12 l 17
- 4 12 l 9
- 4 0 l 1
- 0 0 l 25
-EndSplineSet
-Validated: 1
+Refer: 266 39 S 1 0 0 1 -4 2 2
+Refer: 76 110 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: eng
@@ -7299,109 +7245,31 @@ EndChar
 StartChar: uni0156
 Encoding: 342 342 366
 Width: 16
-Flags: MW
-HStem: 10 2<8 10> 18 2<4 10>
-VStem: 0 4<0 10 12 18> 10 4<0 3 13 17>
-AnchorPoint: "bottom" 7 -6 basechar 0
-AnchorPoint: "top" 7 20 basechar 0
+Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-6 0 m 1
- 8 0 l 1
- 10 -3 l 1
- 8 -6 l 1
- 6 -6 l 1
- 8 -3 l 1
- 6 0 l 1
-10 18 m 1
- 4 18 l 25
- 4 12 l 1
- 10 12 l 25
- 10 18 l 1
-0 0 m 25
- 0 20 l 1
- 11 20 l 1
- 14 17 l 1
- 14 13 l 1
- 11 10 l 1
- 8 10 l 1
- 14 3 l 1
- 14 0 l 1
- 10 0 l 1
- 10 3 l 1
- 4 10 l 1
- 4 0 l 1
- 0 0 l 25
-EndSplineSet
-Validated: 1
+Refer: 280 807 S 1 0 0 1 0 0 2
+Refer: 49 82 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0157
 Encoding: 343 343 367
 Width: 16
-Flags: MW
-VStem: 0 4<0 5 10 14>
-AnchorPoint: "bottom" 2 -6 basechar 0
-AnchorPoint: "top" 7 14 basechar 0
+Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-0 0 m 1
- 0 14 l 1
- 4 14 l 1
- 4 10 l 1
- 8 14 l 1
- 13 14 l 1
- 4 5 l 1
- 4 0 l 1
- 3 0 l 1
- 5 -3 l 1
- 3 -6 l 1
- 1 -6 l 1
- 3 -3 l 1
- 1 0 l 1
- 0 0 l 1
-EndSplineSet
-Validated: 1
+Refer: 280 807 S 1 0 0 1 -5 0 2
+Refer: 80 114 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: tcaron
 Encoding: 357 357 368
 Width: 16
-Flags: MW
-HStem: 0 2<8 12> 12 2<0 4 8 12>
-VStem: 4 4<3 12 14 20>
-AnchorPoint: "top" 6 20 basechar 0
-AnchorPoint: "bottom" 8 0 basechar 0
+Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-10 22 m 1
- 12 22 l 1
- 14 19 l 1
- 12 16 l 1
- 10 16 l 1
- 12 19 l 1
- 10 22 l 1
-4 20 m 1
- 8 20 l 1
- 8 14 l 1
- 12 14 l 25
- 12 12 l 1
- 8 12 l 1
- 8 2 l 1
- 12 2 l 1
- 12 0 l 1
- 7 0 l 1
- 4 3 l 1
- 4 12 l 1
- 0 12 l 25
- 0 14 l 25
- 4 14 l 25
- 4 20 l 1
-EndSplineSet
-Validated: 1
+Refer: 266 39 S 1 0 0 1 6 2 2
+Refer: 82 116 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Tbar
