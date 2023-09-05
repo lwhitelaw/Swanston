@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9696 32 8
+WinInfo: 160 32 8
 BeginPrivate: 5
 BlueValues 2 []
 StdHW 3 [2]
@@ -6760,10 +6760,11 @@ EndChar
 StartChar: uni0122
 Encoding: 290 290 342
 Width: 16
+UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 280 807 S 1 0 0 1 0 0 2
+Refer: 280 807 N 1 0 0 1 0 0 2
 Refer: 38 71 N 1 0 0 1 0 0 2
 Validated: 5
 EndChar
@@ -6771,6 +6772,7 @@ EndChar
 StartChar: uni0123
 Encoding: 291 291 343
 Width: 16
+UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -6965,6 +6967,7 @@ EndChar
 StartChar: uni013B
 Encoding: 315 315 351
 Width: 16
+UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -7094,6 +7097,7 @@ LayerCount: 2
 Fore
 Refer: 280 807 S 1 0 0 1 0 0 2
 Refer: 45 78 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni0146
@@ -7104,6 +7108,7 @@ LayerCount: 2
 Fore
 Refer: 280 807 S 1 0 0 1 0 0 2
 Refer: 76 110 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: napostrophe
@@ -7114,6 +7119,7 @@ LayerCount: 2
 Fore
 Refer: 266 39 S 1 0 0 1 -4 2 2
 Refer: 76 110 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: eng
@@ -7250,16 +7256,19 @@ LayerCount: 2
 Fore
 Refer: 280 807 S 1 0 0 1 0 0 2
 Refer: 49 82 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni0157
 Encoding: 343 343 367
 Width: 16
+UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
 Refer: 280 807 S 1 0 0 1 -5 0 2
 Refer: 80 114 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: tcaron
@@ -7270,6 +7279,7 @@ LayerCount: 2
 Fore
 Refer: 266 39 S 1 0 0 1 6 2 2
 Refer: 82 116 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Tbar
@@ -9944,6 +9954,7 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 64 98 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni044C
@@ -10323,6 +10334,7 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 87 121 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni0423
@@ -10379,6 +10391,7 @@ LayerCount: 2
 Fore
 Refer: 131 774 N 1 0 0 1 -1 -6 2
 Refer: 522 1091 S 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni040E
@@ -11991,6 +12004,7 @@ SplineSet
  0 11 l 1
  3 14 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: oneeighth
