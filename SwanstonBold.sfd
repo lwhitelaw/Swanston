@@ -5,7 +5,7 @@ FamilyName: Swanston
 Weight: Bold
 Copyright: Copyright (c) 2023 Liam Whitelaw
 UComments: "2023-4-7: Created with FontForge (http://fontforge.org)"
-Version: 001.000
+Version: 001.100
 ItalicAngle: 0
 UnderlinePosition: -8
 UnderlineWidth: 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1680916401
-ModificationTime: 1694026591
+ModificationTime: 1694026821
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 32 8
+WinInfo: 64 32 8
 BeginPrivate: 5
 BlueValues 2 []
 StdHW 3 [8]
@@ -1046,7 +1046,7 @@ SplineSet
  15 0 l 1,15,-1
  15 16 l 25,12,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: at
@@ -7348,24 +7348,24 @@ AnchorPoint: "bottom" 48 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-30 40 m 1
- 26 40 l 1
- 18 24 l 1
- 18 16 l 1
- 38 16 l 1
- 38 24 l 1
- 30 40 l 1
-16 56 m 1
- 40 56 l 1
- 56 24 l 1
- 56 0 l 1
- 38 0 l 1
- 38 8 l 1
- 18 8 l 1
- 18 0 l 1
- 0 0 l 1
- 0 24 l 1
- 16 56 l 1
+30 40 m 1,0,-1
+ 26 40 l 1,1,-1
+ 18 24 l 1,2,-1
+ 18 16 l 1,3,-1
+ 38 16 l 1,4,-1
+ 38 24 l 1,5,-1
+ 30 40 l 1,0,-1
+16 56 m 1,6,-1
+ 40 56 l 1,7,-1
+ 56 24 l 1,8,-1
+ 56 0 l 1,9,-1
+ 38 0 l 1,10,-1
+ 38 8 l 1,11,-1
+ 18 8 l 1,12,-1
+ 18 0 l 1,13,-1
+ 0 0 l 1,14,-1
+ 0 24 l 1,15,-1
+ 16 56 l 1,6,-1
 EndSplineSet
 Refer: 104 769 N 1 0 0 1 -4 -4 2
 Refer: 247 778 N 1 0 0 1 -4 -24 2
