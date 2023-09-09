@@ -6,14 +6,23 @@ Swanston is a retro-inspired outline typeface designed to resemble bitmap fonts 
 
 ### Usage
 
-- Swanston is designed for and looks best at 16 pixel size or multiples thereof. On standard DPI Windows, this is 12pt. For other platforms, it is 16pt. Sizes smaller than 16 pixels will have compromised legibility. Larger non-multiple-of-16 sizes work fine, but might not be as clear.
-- While Swanston resembles bitmap fonts, the font is intended to be seen anti-aliased. Bilevel rendering will look acceptable in the normal weight, but will _not_ be legible in the bold weight.
-- The bold weight is intended to support terminals and IDEs that expect that weight to exist. Usage as the primary weight is not recommended since some legibility is compromised to keep metrics as similar as possible. 
+- Swanston is designed for and looks best at 16 pixel size or multiples thereof. On standard DPI Windows, this is 12pt. For other platforms, it is 16pt. Sizes smaller than 16 pixels will have compromised legibility, though some concessions are made for bitmap users. Larger non-multiple-of-16 sizes work fine, but might not be as clear.
+- While Swanston resembles bitmap fonts, the font is intended to be seen anti-aliased. Bilevel rendering will look acceptable in the normal weight, but will not be easily distinguishable in the bold weight.
+- The bold weight is intended to support terminals and IDEs that require that weight to exist. Its usage is discouraged, especially for white-on-black viewing environments. (I'm still trying to strike a good balance between legibility and distinguishability- there's not a lot of room to work with)
 
 ### Notes
 
 Swanston is licenced under the SIL OFL, so freely use it for whatever you want.
 
-Combining marks are defined but might not work as expected. Use the precomposed Unicode characters.
-
 Some font renderers might have trouble with Swanston. I'll try to fix things as they come up.
+
+### Changes in v1.1
+- Bold weight is now subtle, having been redrawn entirely.
+	-	It looks better on white-on-black than black-on-white, so keep that in mind. It is more legible at smaller sizes but harder to distinguish between bold and normal.
+- Combining mark stacking now works properly.
+- Internally, references are now used more often.
+- Bitmaps have been added for ppem sizes 8 to 15 in the regular weight.
+	- Only ASCII and the box-drawing characters have bitmaps.
+	- The bold weight does **not** have bitmaps added to it.
+- TrueType Collection format added.
+- Fonts hinted using ttfautohint, -a sss.
