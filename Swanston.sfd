@@ -54,7 +54,7 @@ GaspTable: 2 48 2 65535 1 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: 14
+DisplaySize: 15
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 9536 32 8
